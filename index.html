@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food Fight</title>
+	<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+	<script type="text/javascript" src="mock.json"></script>
+	<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+	<script src="dist/js/bootstrap.min.js"></script>
+</head>
+<body style="padding-top: 50px"> <!--padding here to offset fixed navbar-->
+
+
+	<!--example nav bar taken from getbootstrap.com/components-->
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">Food Fight</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+					<li><a href="#">Food Labels</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+
+	<p>Food fight woohoo</p>
+		<p id='jsparagraph'></p>
+		<p id='json_stuff'></p>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(document.getElementById("jsparagraph")).html("yay jQuery");
+				var data = JSON.parse(mock);
+				$(document.getElementById("json_stuff")).html(data.string);
+			});
+		</script>
+
+</div>
+</body>
+</html>
