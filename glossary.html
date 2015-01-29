@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food Fight</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script src="dist/js/bootstrap.min.js"></script>
+</head>
+<body style="padding-top: 50px"> <!--padding here to offset fixed navbar-->
+
+
+	<!--example nav bar taken from getbootstrap.com/components-->
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">Food Fight</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+					<li><a href="#">Food Labels</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+
+
+	<!--side menu taken from http://www.bootply.com/uBoT3zP1P2 -->
+	<div id="MainMenu">
+		<div class="list-group panel">
+			<a href="#all_natural" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">All Natural</a>
+			<div class="collapse" id="all_natural">
+				<a href="#SubMenu1" class="list-group-item sub_1" data-toggle="collapse" data-parent="#SubMenu1">Grains<i class="fa fa-caret-down"></i></a>
+				<div class="collapse list-group-submenu" id="SubMenu1">
+					<a href="#oats" class="list-group-item sub_2" data-parent="#SubMenu1">Oats</a>
+					<a href="#quinoa" class="list-group-item sub_2" data-parent="#SubMenu1">Quinoa</a>
+					<a href="#SubSubMenu1" class="list-group-item sub_2" data-toggle="collapse" data-parent="#SubSubMenu1">Wheat<i class="fa fa-caret-down"></i></a>
+					<div class="collapse list-group-submenu list-group-submenu-1" id="SubSubMenu1">
+						<a href="#" class="list-group-item sub_3" data-parent="#SubSubMenu1">American</a>
+						<a href="#" class="list-group-item sub_3" data-parent="#SubSubMenu1">Brazilian</a>
+					</div>
+				</div>
+				<a href="#meat" class="list-group-item sub_1">Meat</a>
+				<a href="#vegetables" class="list-group-item sub_1">Vegetables</a>
+			</div>
+
+			<a href="#all_natural2" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">All Natural</a>
+			<div class="collapse" id="all_natural2">
+				<a href="#SubMenu12" class="list-group-item sub_1" data-toggle="collapse" data-parent="#SubMenu12">Grains<i class="fa fa-caret-down"></i></a>
+				<div class="collapse list-group-submenu" id="SubMenu12">
+					<a href="#" class="list-group-item sub_2" data-parent="#SubMenu12">Oats</a>
+					<a href="#" class="list-group-item sub_2" data-parent="#SubMenu12">Quinoa</a>
+					<a href="#SubSubMenu12" class="list-group-item sub_2" data-toggle="collapse" data-parent="#SubSubMenu12">Wheat<i class="fa fa-caret-down"></i></a>
+					<div class="collapse list-group-submenu list-group-submenu-1" id="SubSubMenu12">
+						<a href="#" class="list-group-item sub_3" data-parent="#SubSubMenu12">American</a>
+						<a href="#" class="list-group-item sub_3" data-parent="#SubSubMenu12">Brazilian</a>
+					</div>
+				</div>
+				<a href="javascript:;" class="list-group-item sub_1">Meat</a>
+				<a href="javascript:;" class="list-group-item sub_1">Vegetables</a>
+			</div>
+		</div>
+	</div>
+
+	<!--glossary entries in this big div-->
+	<div id="glossary-body">
+		<div class="glossary-item" id="grains">Grains</div>
+		<div class="glossary-item" id="oats"  style="text-align: right">Oats</div>
+		<div class="glossary-item" id="quinoa">Quinoa</div>
+		<div class="glossary-item" id="wheat"  style="text-align: right">Wheat</div>
+		<div class="glossary-item" id="meat">Meat</div>
+		<div class="glossary-item" id="vegetables"  style="text-align: right">Vegetables</div>
+	</div>
+
+
+</body>
+</html>
