@@ -1,7 +1,65 @@
+.circle{
+  border-radius: 100px;
+  width: 160px;
+height: 160px;
+box-shadow: -4px 7px 1px rgba(0, 0, 0, 0.5);
+border-style: none;
+border-color: transparent;
+background-color: #468966;
+}
+
+
+#first-block{
+  height: 952px;
+  border-color: #000000;
+  background-color: #EDE8E0;
+}
+
+#second-block{
+  height: 860px;
+  border-color: #000000;
+  background-color: #545454;
+}
+
+#third-block{
+  height: 575px;
+  border-color: #000000;
+  background-color: #EDE8E0;
+}
+
+#container {
+  width: 100%;
+  position: relative;
+}
+
+#doyouknow {
+  border-radius: 30px 30px 30px 0px;
+  box-shadow: -4px 7px 1px rgba(0, 0, 0, 0.5);
+border-color: #000000;
+background-color: #EDE8E0;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 481px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+#image {
+  width: 100%;
+  height: 500px;
+  z-index: 10;
+}
+
 
 .navbar{
 	background-color: #468966;
 	color: #EDE8E0;
+  /*for scrolling sidebar*/
+  position: relative; 
+  z-index: 3000;
 }
 
 .navbar .nav{
@@ -37,9 +95,17 @@ font-weight: 300;
 	color: #EDE8E0;
 }
 
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:hover, 
+.navbar-inverse .navbar-nav>.active>a:focus{
+  background-color: #EDE8E0;
+  color: #545454;
+}
+
+
 .navbar .nav > .active > a, 
 .navbar .nav > .active > a:hover,
-.navbar .nav > .active > a:focus
+.navbar .nav > .active > a:focus,
 {
     	background-color: #EDE8E0;
 	color: #545454;
@@ -62,16 +128,45 @@ font-weight: 300;
 
 }
 
+/*some of this taken from http://css-tricks.com/scrollfollow-sidebar/*/
+
+/* Negative top margin on sidebar pulls up header under title-area */
+/*#sidebar { 
+  width: 190px; 
+
+}*/
+
+/* Title area kept above all with z-index */
+/*#title-area { 
+  background: white; 
+  position: relative; 
+  z-index: 3000; 
+}*/
+
+
+#sidebar-logo{
+  font-size: 30px;
+  z-index: 1;
+}
+
 #glossary-body{
 	margin-left: 20%;
+  overflow: scroll;
 }
 
 #MainMenu {
+  margin-top: -40px;
 	width: 20%;
 	float: left;
-	position: fixed;
+  position: fixed;  
+  z-index: 1000;
+  overflow: scroll;
 }
 
+.sidebar{
+  background-color: #468966;
+
+}
 .sub_1{
 	margin-left: 10px;
 }
@@ -87,7 +182,6 @@ font-weight: 300;
 .glossary-item{
 	border: 3px solid black;
 	height: 100px;
-	background-color: red;
 }
 
 /*slideshow styles from http://www.sitepoint.com/you-dont-need-javascript-for-that*/
