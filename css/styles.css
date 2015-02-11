@@ -1,8 +1,8 @@
 /*side nav for explore labels stuff*/
 #side-nav{
-  width: 40px;
-  margin-top: -80px;
-  float: left;
+  /*width: 40px;*/
+  width: 150px;
+  margin-top: -40px;
   position: fixed;
 }
 
@@ -17,6 +17,7 @@
   border-color: transparent;
   background-color: #468966;
   border-radius: 100px;
+  float: left;
 }
 
 a.link{
@@ -31,6 +32,7 @@ a.link{
 
 .nav-item-text{
   visibility: hidden;
+  display: inline;
 }
 
 .side-nav-connector{
@@ -40,7 +42,7 @@ a.link{
 }
 
 #labels-body{
-  margin-left: 70px;
+  margin-left: 150px;
 }
 
 .item{
