@@ -1,0 +1,48 @@
+<manifest alg="2" build="328" opt="false" iceEnabled="true" exportTarget="other" resolutions="1x" timestamp="1423095658860">
+  <folder name="css">
+    <file name="site_global.css" crc="3961263015"/>
+    <file name="master_b-master.css" crc="64062228" ref="explore-labels:blog:basics:faqs:glossary"/>
+    <file name="master_a-master.css" crc="4218992811" ref="index"/>
+    <file name="explore-labels.css" crc="477866716" ref="explore-labels"/>
+    <file name="blog.css" crc="65785463" ref="blog"/>
+    <file name="basics.css" crc="33787296" ref="basics"/>
+    <file name="iefonts_basics.css" crc="3899931772" ref="basics"/>
+    <file name="index.css" crc="317968502" ref="index"/>
+    <file name="iefonts_index.css" crc="3924746372" ref="index"/>
+    <file name="faqs.css" crc="65785463" ref="faqs"/>
+    <file name="glossary.css" crc="65785463" ref="glossary"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="3850798583" ref="index:basics:glossary:faqs:blog:explore-labels"/>
+    <file name="museutils.js" crc="212726984" ref="index:basics:glossary:faqs:blog:explore-labels"/>
+    <file name="pie.js" crc="3827607177" ref="index:basics:explore-labels"/>
+    <file name="jquery.watch.js" crc="4125239756" ref="index:basics:glossary:faqs:blog:explore-labels"/>
+    <file name="jquery.musemenu.js" crc="440295907" ref="index:basics:glossary:faqs:blog:explore-labels"/>
+    <file name="webpro.js" crc="114405901" ref="index"/>
+    <file name="musewpslideshow.js" crc="3797706250" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="254250306" ref="index"/>
+    <file name="touchswipe.js" crc="12843993" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:basics:glossary:faqs:blog:explore-labels"/>
+  </folder>
+  <folder name="images">
+    <file name="organic-fruit.jpg" crc="140736888" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="morrisons-slashes-prices-as-supermarket-price-war-looms.jpg" crc="49180375" ref="index"/>
+    <file name="il_fullxfull316180093.jpg" crc="469394871" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="iconmonstr-book-19-icon-256.png" crc="4171420005" ref="index"/>
+    <file name="iconmonstr-shield-19-icon-256.png" crc="4040557923" ref="index"/>
+    <file name="iconmonstr-trophy-13-icon-256.png" crc="4066716239" ref="index"/>
+    <file name="nutritional.gif" crc="4047250982" ref="basics"/>
+    <file name="10775175-large.jpg" crc="4080682414" ref="explore-labels"/>
+    <file name="u710-sprite.png" crc="393380279" ref="explore-labels"/>
+    <file name="ebsgkcarton.jpg" crc="3925779015" ref="explore-labels"/>
+    <file name="u743-sprite.png" crc="3895318413" ref="explore-labels"/>
+  </folder>
+  <file name="index.html" crc="436855170" mt="1423085555822" redirect="true"/>
+  <file name="basics.html" crc="103057166" mt="1423085555828" redirect="true"/>
+  <file name="glossary.html" crc="3883147323" mt="1423085555829" redirect="true"/>
+  <file name="faqs.html" crc="310344595" mt="1423085555829" redirect="true"/>
+  <file name="blog.html" crc="207093496" mt="1423085555845" redirect="true"/>
+  <file name="explore-labels.html" crc="122753931" mt="1423094545767" redirect="true"/>
+</manifest>
