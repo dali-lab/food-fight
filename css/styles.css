@@ -143,11 +143,13 @@ font-family: quicksand, sans-serif;
 font-weight: 300;
     }
 
-.navbar-inverse .navbar-nav>li>a
-.navbar-inverse .navbar-nav>li>a:hover {
+
+.navbar-inverse .navbar-nav>li>a {
 	background-color: #468966;
-	color: #EDE8E0;
+	color: white;
 }
+
+
 
 .navbar-inverse .navbar-nav>.active>a, 
 .navbar-inverse .navbar-nav>.active>a:hover, 

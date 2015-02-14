@@ -1,0 +1,60 @@
+<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1423758652879">
+  <folder name="css">
+    <file name="site_global.css" crc="500508345"/>
+    <file name="master_a-master.css" crc="4140026125" ref="index"/>
+    <file name="master_b-master.css" crc="84868330" ref="faqs:explore-labels:glossary:blog:basics:poultry"/>
+    <file name="faqs.css" crc="4180404770" ref="faqs"/>
+    <file name="explore-labels.css" crc="442531197" ref="explore-labels"/>
+    <file name="basics.css" crc="4271620497" ref="basics"/>
+    <file name="glossary.css" crc="462680296" ref="glossary"/>
+    <file name="iefonts_glossary.css" crc="4279046926" ref="glossary"/>
+    <file name="index.css" crc="101486263" ref="index"/>
+    <file name="iefonts_index.css" crc="3924746372" ref="index"/>
+    <file name="blog.css" crc="4180404770" ref="blog"/>
+    <file name="iefonts_basics.css" crc="3899931772" ref="basics"/>
+    <file name="poultry.css" crc="206189235" ref="poultry"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4164521501" ref="index:basics:glossary:faqs:explore-labels:blog:poultry"/>
+    <file name="museutils.js" crc="3777594392" ref="index:basics:glossary:faqs:explore-labels:blog:poultry"/>
+    <file name="pie.js" crc="3827607177" ref="index:basics:glossary:explore-labels:poultry"/>
+    <file name="jquery.watch.js" crc="4144919381" ref="index:basics:glossary:faqs:explore-labels:blog:poultry"/>
+    <file name="jquery.musemenu.js" crc="415733523" ref="index:basics:glossary:faqs:explore-labels:blog:poultry"/>
+    <file name="webpro.js" crc="474087315" ref="index"/>
+    <file name="musewpslideshow.js" crc="274584885" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="170414611" ref="index"/>
+    <file name="touchswipe.js" crc="100683906" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:basics:glossary:faqs:explore-labels:blog:poultry"/>
+  </folder>
+  <folder name="images">
+    <file name="organic-fruit.jpg" crc="140736888" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="morrisons-slashes-prices-as-supermarket-price-war-looms.jpg" crc="49180375" ref="index"/>
+    <file name="il_fullxfull316180093.jpg" crc="469394871" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="search.png" crc="290158605" ref="glossary"/>
+    <file name="iconmonstr-book-19-icon-256.png" crc="4171420005" ref="index"/>
+    <file name="iconmonstr-shield-19-icon-256.png" crc="4040557923" ref="index"/>
+    <file name="iconmonstr-trophy-13-icon-256.png" crc="4066716239" ref="index"/>
+    <file name="nutritional.gif" crc="4047250982" ref="basics"/>
+    <file name="environment.png" crc="3878649530" ref="glossary:explore-labels:poultry"/>
+    <file name="corn.png" crc="3763993609" ref="glossary:explore-labels:poultry"/>
+    <file name="cow.png" crc="32480109" ref="glossary:explore-labels:poultry"/>
+    <file name="pigs.png" crc="531587226" ref="glossary:explore-labels:poultry"/>
+    <file name="eggs.png" crc="4203417283" ref="explore-labels:poultry"/>
+    <file name="poultry.png" crc="534424495" ref="explore-labels:poultry"/>
+    <file name="egg carton.jpg" crc="3804717529" ref="explore-labels"/>
+    <file name="u710-sprite.png" crc="393380279" ref="explore-labels:poultry"/>
+    <file name="u743-sprite.png" crc="3895318413" ref="explore-labels:poultry"/>
+    <file name="egg carton with labels.jpg" crc="405454171" ref="explore-labels"/>
+    <file name="chicken.png" crc="4171196475" ref="poultry"/>
+    <file name="chicken breast.png" crc="85923880" ref="poultry"/>
+  </folder>
+  <file name="index.html" crc="204296641" mt="1423716709021" redirect="true"/>
+  <file name="basics.html" crc="3994605351" mt="1423716709028" redirect="true"/>
+  <file name="glossary.html" crc="3914172916" mt="1423716709030" redirect="true"/>
+  <file name="faqs.html" crc="192854981" mt="1423716709032" redirect="true"/>
+  <file name="explore-labels.html" crc="4097741247" mt="1423716709037" redirect="true"/>
+  <file name="blog.html" crc="3821313358" mt="1423716709035" redirect="true"/>
+  <file name="poultry.html" crc="3782818403" mt="1423758151883" redirect="true"/>
+</manifest>
