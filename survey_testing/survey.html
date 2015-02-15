@@ -1,0 +1,35 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Sample Survey</title>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.3.4.min.js"></script>
+      
+  <script type="text/javascript" src="js/survey.js"></script>
+  <script type="text/javascript" src="js/populate_surv.js"></script>
+  <script>
+    $(document).ready(function() {
+      populate_survey('form');
+    })
+  </script>
+  <!--
+  SweetAlert written by Tristan Edwards with free-use license
+  http://tristanedwards.me/sweetalert
+  -->
+  <script src="sweet-alert-lib/sweet-alert.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="sweet-alert-lib/sweet-alert.css">
+  
+</head>
+
+<body>
+
+    <h1>Food Label Survey</h1>
+    <form id='form'>
+    </form>
+  
+    <button onclick="submit('form', 'http://www.google.com')">Submit</button>    
+    
+</body>
+
+</html>
