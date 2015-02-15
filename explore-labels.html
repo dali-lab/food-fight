@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food Fight</title>
+	<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="sidenav.js"></script>
+	<script src="dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+	<!--example nav bar taken from getbootstrap.com/components-->
+
+	<!--example nav bar taken from getbootstrap.com/components-->
+
+	<nav class="navbar navbar-inverse">
+		<div style="background-color: #EDE8E0; width: 100%; height: 20px"></div>
+		<div id="top-bar">Food Fight</div>
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav main-nav">
+					<li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+					<li><a href="#">Basics</a></li>
+					<li><a href="explore-labels.html">Explore Labels</a></li>
+					<li><a href="glossary.html">Glossary</a></li>
+					<li><a href="#">FAQs</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+
+	<div id="side-nav">
+		<div id="sidebar-logo">Food Fight</div>
+		<div id="side-nav-menu">
+			<div class="side-nav-item">
+				<div class="side-nav-circle">
+					<a class="link" href="#1"></a>
+				</div>
+				<div class="nav-item-text" id="item-text1">  Section 1</div>
+				<!--<p>hello</p>-->
+				<div class="side-nav-connector"></div>
+			</div>
+			<div class="side-nav-item">
+				<div class="side-nav-circle">
+					<a class="link" href="#2"></a>
+				</div>
+				<div class="nav-item-text" id="item-text2">hello2</div>
+				<div class="side-nav-connector"></div>
+			</div>
+			<div class="side-nav-item">
+				<div class="side-nav-circle">
+					<a class="link" href="#3"></a>
+				</div>
+				<div class="nav-item-text" id="item-text3">hello3</div>
+				<div class="side-nav-connector"></div>
+			</div>
+			<div class="side-nav-item">
+				<div class="side-nav-circle">
+					<a class="link" href="#4"></a>
+				</div>
+				<div class="nav-item-text" id="item-text4">hello4</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="labels-body">
+		<div class="item" id="1" style="background-color: #EDE8E0"></div>
+		<div class="item" id="2" style="background-color: #545454"></div>
+		<div class="item" id="3" style="background-color: #EDE8E0"></div>
+		<div class="item" id="4" style="background-color: #545454"></div>
+	</div>
+
+<!--
+	<script>
+$( "a.link" ).hover(
+	function(){
+		$(this).parent().children("p").css("color", "red");
+		$(this).parent().children(".nav-item-text").css("visibility", "visible");
+	}, function(){
+		$(this).parent().children(".nav-item-text").css("visibility", "hidden");
+	}
+ );
+
+	</script>
+-->
