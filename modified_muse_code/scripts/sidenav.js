@@ -7,24 +7,38 @@ $( "a.link" ).hover(
 		$(this).parent().parent().children(".nav-item-text").css("visibility", "hidden");
 	}
  );
+    sideNavPosition();
+});
 
 /*taken from http://jsfiddle.net/anjzb/ */
-$(window).scroll(function () {
+$(window).scroll(sideNavPosition);
 
-        var y = $(this).scrollTop();
+function sideNavPosition(){
+        var sOffset = $(".above-side-nav").offset().top;
+    var barheight = $(".above-side-nav").height() + 60; //add 60 to account for margin
+    var y = $(this).scrollTop();
+    
 
-        $('.link').each(function (event) {
-            if (y >= $($(this).attr('href')).offset().top) {
+    if (y > sOffset + barheight) {
+        console.log("moving");
+        $("#side-nav").css({
+            'margin-top': '20px',
+        });
+    } else {
+        $("#side-nav").css({
+            'margin-top': (310 - y)+ 'px', //310 is height of all top bars above side nav
+        });
+    }
+
+    $('.link').each(function (event) {
+        if (y >= $($(this).attr('href')).offset().top - 100) {
                 // $('.link').not(this).removeClass('active');
                 $('.link').not(this).parent().parent().children(".nav-item-text").css("visibility", "hidden");
                 // $(this).addClass('active');
                 $(this).parent().parent().children(".nav-item-text").css("visibility", "visible");
             }
         });
-
-    });
-
-});
+}
 
 /*taken from http://jsfiddle.net/anjzb/ */
 $(function () {
@@ -41,3 +55,5 @@ $(function () {
         }
     });
 });
+
+
