@@ -10,11 +10,12 @@
 #side-nav{
   position: fixed; 
   margin-top: 310px;
-  z-index: 100;
+  z-index: 1000;
 }
 
 #side-nav-menu{
   margin-left: 20px;
+  z-index: 1000;
 }
 
 .side-nav-circle{
@@ -30,7 +31,7 @@
 .nav-item-text{
   visibility: hidden;
   display: inline;
-  z-index: 200;
+  z-index: 1000;
   font-family: open-sans, sans-serif;
   margin-left: 5px;
   margin-top: 5px;
@@ -59,4 +60,8 @@ a.link{
   height: 50px;
   margin-left: -181px;
   z-index: 1;
+}
+
+.label-click-info{
+  width: 1000px;
 }
