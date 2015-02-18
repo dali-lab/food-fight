@@ -4,23 +4,23 @@ Parse.initialize("auhX12Zx76VCpMi4N0WMdLGHVihxJ2BbNjaiAsiS", "0uqFNRAqTibGlpkcLV
 //http://tristanedwards.me/sweetalert
 $.getScript("sweet-alert-lib/sweet-alert.min.js", function() { });
 
+var Questions = Parse.Object.extend("Questions");
+var questions = new Parse.Query(Questions);
+questions.ascending("question_numb");
+
+questions.find({
+  success: function(results) {
+    globresults = results;
+  },
+  error: function(error) {
+    alert("Error");
+  }
+})
+
 function submit(form_name, url) {
   var Survey = Parse.Object.extend("Survey");
   var survey = new Survey();
-  
-  var Questions = Parse.Object.extend("Questions");
-  var questions = new Parse.Query(Questions);
-  questions.ascending("question_numb");
-  
-  questions.find({
-    success: function(results) {
-      globresults = results;
-    },
-    error: function(error) {
-      alert("Error");
-    }
-  })
-  
+
   var survdata = document.getElementById(form_name).elements;
   var wrongans = '';
   
