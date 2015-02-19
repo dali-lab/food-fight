@@ -1,318 +1,209 @@
-/*side nav for explore labels stuff*/
-#side-nav{
-  /*width: 40px;*/
-  width: 150px;
-  margin-top: -40px;
-  position: fixed;
-}
-
-#side-nav-menu{
-  margin-left: 10px;
-}
-
-.side-nav-circle{
-  width: 22px;
-  height: 21px;
-  border-style: none;
-  border-color: transparent;
-  background-color: #468966;
-  border-radius: 100px;
-  float: left;
-}
-
-a.link{
-  position: absolute;
-  width: 22px;
-  height: 21px;
-
-   /*edit: added z-index */
-  z-index: 1;
-}
-
-
-.nav-item-text{
-  visibility: hidden;
-  display: inline;
-}
-
-.side-nav-connector{
-  width: 11px;
-  height: 50px;
-  border-right: solid #545454 3px;
-}
-
-#labels-body{
-  margin-left: 150px;
-}
-
-.item{
-  height: 400px;
-  background-color: #545454;
-}
-
-
-
-.circle{
-  border-radius: 100px;
-  width: 160px;
-height: 160px;
-box-shadow: -4px 7px 1px rgba(0, 0, 0, 0.5);
-border-style: none;
-border-color: transparent;
-background-color: #468966;
-}
-
-
-#first-block{
-  height: 952px;
-  border-color: #000000;
+/**navbar stuff*/
+.top-bar{
   background-color: #EDE8E0;
-}
-
-#second-block{
-  height: 860px;
-  border-color: #000000;
-  background-color: #545454;
-}
-
-#third-block{
-  height: 575px;
-  border-color: #000000;
-  background-color: #EDE8E0;
-}
-
-#container {
-  width: 100%;
-  position: relative;
-}
-
-#doyouknow {
-  border-radius: 30px 30px 30px 0px;
-  box-shadow: -4px 7px 1px rgba(0, 0, 0, 0.5);
-border-color: #000000;
-background-color: #EDE8E0;
-  margin-top: 30px;
-  margin-left: 30px;
-  width: 481px;
-  height: 200px;
-  position: absolute;
-  top: 0;
-  left: 0;
+  height: 90px;
+  line-height: 90px;
   text-align: center;
+  letter-spacing: 14px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #545454;
+  font-size: 48px;
 }
-
-#image {
-  width: 100%;
-  height: 500px;
-  z-index: 10;
-}
-
 
 .navbar{
-	background-color: #468966;
-	color: #EDE8E0;
-  /*for scrolling sidebar*/
-  position: relative; 
-  z-index: 3000;
+    margin-bottom: 0px;
 }
 
-.navbar .nav{
-	background-color: #468966;
-	color: #EDE8E0;
-    margin: 0 auto;
-    display: table;
-    table-layout: fixed;
-    float:none;
-    width: 100%;
+.container-fluid{
+    background-color: #468966;
+}
+.nav{
+  width: 100%;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  /*display: inline-block;
+  float: none;*/
 }
 
-.navbar-inverse{
-	border: none;
-	border-radius: 0;
-	margin-bottom: 0px;
-}
-
-.navbar-nav>li {
-        display: table-cell;
-        float: none;
-        width: 16%;
-        line-height: 22px;
-font-size: 18px;
-text-align: center;
+.nav>li{
+  width: 15%;
+  font-size: 18px;
 font-family: quicksand, sans-serif;
 font-weight: 300;
-    }
-
-
-.navbar-inverse .navbar-nav>li>a {
-	background-color: #468966;
-	color: white;
 }
 
+.navbar .nav > li > a,
+.navbar .nav > li > a:hover{
+    color: white;
+}
 
-
-.navbar-inverse .navbar-nav>.active>a, 
-.navbar-inverse .navbar-nav>.active>a:hover, 
-.navbar-inverse .navbar-nav>.active>a:focus{
+.navbar .nav .active > a, 
+.navbar .nav .active > a:hover {
   background-color: #EDE8E0;
   color: #545454;
 }
 
+/*body of landing page*/
 
-.navbar .nav > .active > a, 
-.navbar .nav > .active > a:hover,
-.navbar .nav > .active > a:focus,
-{
-    	background-color: #EDE8E0;
-	color: #545454;
+/*first block: slideshow and "do you know" bubble*/
+#block-1{
+  width: 100%;
+  height: 750px;
+  background-color: black;
 }
 
+#do-you-box-container{
+position: absolute;
+   top: 50%;
+   margin-top: 84px;/* half of #do-you-box height*/
+   margin-left: 10%;
+   left: 0;
+   width: 100%;
+ }
 
-#top-bar{
-	width: 100%;
-	background-color: #EDE8E0;
-	height: 75px;
-	text-align: center;
-	letter-spacing: 14px;
-	text-align: center;
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	color: #545454;
-	font-size: 48px;
-	line-height: 58px;
-
+#do-you-box{
+  width: 481px;
+  height: 268px;
+  border-radius: 30px 30px 30px 0px;
+  box-shadow: -4px 7px 1px rgba(0, 0, 0, 0.5);
+  border-color: #000000;
+  background-color: #EDE8E0;
+  z-index: 100;
 }
 
-/*some of this taken from http://css-tricks.com/scrollfollow-sidebar/*/
-
-/* Negative top margin on sidebar pulls up header under title-area */
-/*#sidebar { 
-  width: 190px; 
-
-}*/
-
-/* Title area kept above all with z-index */
-/*#title-area { 
-  background: white; 
-  position: relative; 
-  z-index: 3000; 
-}*/
-
-
-#sidebar-logo{
-  font-size: 30px;
-  z-index: 1;
+#do-you{
+  z-index: 60;
+width: 423px;
+/*min-height: 75px;*/
+font-size: 60px;
+line-height: 72px;
+font-family: arvo, serif;
+font-weight: 400;
+/*position: relative;*/
+/*margin-right: -10000px;*/
+margin-top: 42px;
+margin-bottom: 0px;
+left: 29px;
 }
 
-#glossary-body{
-	margin-left: 20%;
-  overflow: scroll;
+#what-ur{
+  font-size: 48px;
+line-height: 58px;
+font-family: arvo, serif;
+font-weight: 400;
+margin-top: -20px;
+margin-left: 50px;
+margin-bottom: 0px;
 }
 
-#MainMenu {
-  margin-top: -40px;
-	width: 20%;
-	float: left;
-  position: fixed;  
-  z-index: 1000;
-  overflow: scroll;
+#eating{
+  color: #B32230;
+font-size: 72px;
+font-family: arvo, serif;
+font-weight: 700;
+font-style: italic;
+margin-top: -20px;
 }
 
-.sidebar{
+/*second block: food labels...confuse*/
+#block-2{
+  height: 952px;
+  width: 100%;
+  background-color: #EDE8E0;
+}
+
+#circle-row{
+  /*width: 100%;*/
+  left:0;
+  right: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.circle-and-text{
+  /*make position absolute i think it will help*/
+  float: left;
+  margin-right: 150px;
+}
+
+.circle{
+  height: 160px;
+  width: 160px;
+  border-radius: 100px;
   background-color: #468966;
-
-}
-.sub_1{
-	margin-left: 10px;
+  box-shadow: -4px 7px 1px rgba(0, 0, 0, 0.5);
 }
 
-.sub_2{
-	margin-left: 20px;
+.icon{
+  width: 109px;
+  margin-top: 33px;
+  left: 22px;
+  position: relative;
 }
 
-.sub_3{
-	margin-left: 30px;
-}
-
-.glossary-item{
-	border: 3px solid black;
-	height: 100px;
-}
-
-/*slideshow styles from http://www.sitepoint.com/you-dont-need-javascript-for-that*/
-
-.slideshow {
+/*third block: what do you look for in a label*/
+#block-3{
   width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-  border: solid 1px white;
+  height: 860px;
+  background-color: #545454;
+  position: relative;
 }
 
-.slideshow-container {
-  width: 2500px;
-  font-size: 0;
-  transition: 6s ease;
-  height: 225px;
+#what-do-u{
+  position: absolute;
+  height: 193px;
+  width: 810px;
+  background-color: #EDE8E0;
+  border-radius: 30px 30px 30px 0px;
+  left: 15%;
+  right: 15%;
+  margin-top: 100px;
 }
 
-/*.slideshow-container:hover {
-  animation-play-state: paused;
-}*/
+#label-words{
+  position: absolute;
+  left: 18%;
+  right: 18%;
+}
 
-img {
+.word-row{}
+
+.word-box{
+  height: 82px;
+  width: 343px;
+  background-color: #468966;
+  border-radius: 10px;
+}
+
+#youve-seen{
+}
+
+
+
+/*fourth block: start journey to healthy life*/
+#block-4{
   width: 100%;
-  height: 870px;
-  display: inline-block;
-  font-size: 16px;
-  text-align: center;
+  height: 575px;
+  background-color: #EDE8E0;
 }
 
-.slide {
-  animation: slide 18s ease infinite;
+#start-your{
+  width: 803px;
+  height: 198px;
+  background-color: #468966;
+  border-radius: 30px;
 }
 
-@keyframes slide {
-  0% {
-    transform: translateX(0%);
-  }
-  
-  12.5% {
-    transform: translateX(0%);
-  }
-  
-  25% {
-    transform: translateX(-25%);
-  }
-  
-  37.5% {
-    transform: translateX(-25%);
-  }
-  
-  50% {
-    transform: translateX(-50%);
-  }
-  
-  62.5% {
-    transform: translateX(-50%);
-  }
-  
-  75% {
-    transform: translateX(-75%);
-  }
-  
-  87.5% {
-    transform: translateX(-75%);
-  }
-  
-  99% {
-    transform: translateX(-75%);
-  }
-  
-  100% {
-    transform: translateX(0);
-  }
+.bottom-buttons{
+  width: 354px;
+  height: 36px;
+  padding: 8px;
+  border: solid 1px #BAC2C7;
+  border-radius: 100px;
 }
-
 
 

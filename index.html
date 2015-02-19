@@ -10,58 +10,99 @@
 </head>
 <body>
 
-
-	<!--example nav bar taken from getbootstrap.com/components-->
-
-	<nav class="navbar navbar-inverse">
-		<div style="background-color: #EDE8E0; width: 100%; height: 20px"></div>
-		<div id="top-bar">Food Fight</div>
+	<!--nav bar-->
+	<nav class="navbar navbar-default">
+		<div class="top-bar">Food Fight</div>
 		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<div>
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-					<li><a href="#">Basics</a></li>
-					<li><a href="#">Explore Labels</a></li>
-					<li><a href="glossary.html">Glossary</a></li>
-					<li><a href="#">FAQs</a></li>
-					<li><a href="#">Contact Us</a></li>
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="basics.html">Basics</a></li> 
+					<li><a href="explore-labels.html">Explore Labels</a></li> 
+					<li><a href="glossary.html">Glossary</a></li> 
+					<li><a href="#">FAQs</a></li> 
+					<li><a href="#">Blog</a></li> 
 				</ul>
-			</div><!-- /.navbar-collapse -->
-		</div><!-- /.container-fluid -->
+			</div>
+		</div>
 	</nav>
-	<div id="container">
-		<div id="doyouknow">Do you know what you're Eating?</div>
-		<div id="image"><img src="images/organic-fruit.jpg" style = "height: 100%"/></div>
-	</div>
-	<div id = "first-block">
-		<div>FOOD LABELS</div>
-		<div>are supposed to:</div>
-		<!--circle first line--><div>
-			<div class="circle">Inform</div>
-			<div class="circle">Protect</div>
-			<div class="circle">Empower</div>
+
+	<!--main body of page-->
+	<!--first block: slider and stuff-->
+	<div id="block-1">
+		<div id="do-you-box-container">
+		<div id="do-you-box">
+			<p id="do-you">Do you know</p>
+			<p id="what-ur">what you're</p>
+			<p id="eating">EATING?</p>
 		</div>
 	</div>
-	<div id="second-block"></div>
-	<div id="third-block"></div>
+	</div>
 
-<div>
+	<!--second block: food labels...confuse-->
+	<div id="block-2">
+		<p id="food-labels">FOOD LABELS</p>
+		<p id="supposed">are supposed to:</p>
+		<div id="circle-row">
+		<div class="circle-and-text" id="inform">
+			<div class="circle">
+				<img class="icon" src="images/iconmonstr-book-19-icon-256.png">
+			</div>
+			<p class="red-text">Inform</p>
+		</div>
+		<div class="circle-and-text" id="inform">
+			<div class="circle">
+				<img class="icon" src="images/iconmonstr-book-19-icon-256.png">
+			</div>
+			<p class="red-text">Inform</p>
+		</div>
+		<div class="circle-and-text" id="inform">
+			<div class="circle">
+				<img class="icon" src="images/iconmonstr-book-19-icon-256.png">
+			</div>
+			<p class="red-text">Inform</p>
+		</div>
+	</div>
+		<p>BUT...</p>
+		<p>often it seems they just</p>
+		<div class="circle-and-text" id="confuse">
+			<div class="circle">
+				<img class="icon" src="images/iconmonstr-book-19-icon-256.png">
+			</div>
+			<p class="red-text">CONFUSE</p>
+		</div>
+	</div>
 
-	<p>Food fight woohoo</p>
-	<p id='jsparagraph'></p>
-	<p id='json_stuff'></p>
-</div>
+	<div id="block-3">
+		<div id="what-do-u">
+			<p id="what-do">What do you look for in a</p>
+			<p id="red-label">label?</p> 
+		</div>
+		<div id="label-words">
+			<div class="word-row">
+				<div class="word-box">"All-natural"</div>
+				<div class="word-box">"Organic"</div>
+			</div>
+			<div class="word-row">
+				<div class="word-box">"Low-fat"</div>
+				<div class="word-box">"Gluten-free"</div>
+			</div>
+		</div>
+		<p id="youve-seen">You've seen them, maybe even paid more because of them, but what do they REALLY mean?</p>
+	</div>
 
-</div>
+	<div id="block-4">
+		<div id="ff-can">
+			<p id="ff">FOODFIGHT </p>
+			<p id="can-help">can help</p>
+		</div>
+		<div id="start-your">Start your journey to a healthier life</div>
+		<div class="bottom-buttons">Test your knowledge!</div>
+		<div class="bottom-buttons">Explore Food Labels</div>
+	</div>
+
+	</div>
+
+
 </body>
 </html>
