@@ -83,51 +83,84 @@ font-size: 60px;
 line-height: 72px;
 font-family: arvo, serif;
 font-weight: 400;
-/*position: relative;*/
+position: absolute;
 /*margin-right: -10000px;*/
-margin-top: 42px;
+margin-top: 30px;
 margin-bottom: 0px;
 left: 29px;
 }
 
 #what-ur{
+  position: absolute;
   font-size: 48px;
 line-height: 58px;
 font-family: arvo, serif;
 font-weight: 400;
-margin-top: -20px;
+margin-top: 80px;
 margin-left: 50px;
 margin-bottom: 0px;
 }
 
 #eating{
+  position: absolute;
   color: #B32230;
 font-size: 72px;
 font-family: arvo, serif;
 font-weight: 700;
 font-style: italic;
-margin-top: -20px;
+margin-top: 120px;
+margin-left: 30px;
 }
 
 /*second block: food labels...confuse*/
 #block-2{
+  position: relative;
   height: 952px;
   width: 100%;
   background-color: #EDE8E0;
 }
 
+p{
+  margin-bottom: 0px;
+}
+
+#food-labels{
+  color: #000000;
+  font-size: 100px;
+text-align: center;
+font-family: quicksand, sans-serif;
+font-weight: 300;
+height: auto;
+width: 738px;
+}
+
+#supposed{
+  color: #000000;
+font-size: 36px;
+text-align: center;
+font-family: quicksand, sans-serif;
+font-weight: 300;
+width: 521px;
+height: auto;
+margin-top: -50px;
+margin-bottom: 20px;
+/*position: relative;*/
+}
+
+
 #circle-row{
-  /*width: 100%;*/
-  left:0;
+  position: absolute;
+  width: 840px;
+  left: 0;
   right: 0;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 0 auto;
 }
 
 .circle-and-text{
   /*make position absolute i think it will help*/
+  position: relative;
+  width: 160px;
   float: left;
-  margin-right: 150px;
 }
 
 .circle{
@@ -138,11 +171,63 @@ margin-top: -20px;
   box-shadow: -4px 7px 1px rgba(0, 0, 0, 0.5);
 }
 
+.red-text{
+font-family: arvo, serif;
+font-weight: 700;
+font-style: italic;
+font-size: 36px;
+text-align: center;
+color: #B32230;
+margin-top: 20px;
+}
+
 .icon{
   width: 109px;
   margin-top: 33px;
   left: 22px;
   position: relative;
+}
+
+#inform{
+  margin-right: 180px;
+}
+#protect{
+  margin-right: 180px;
+}
+#empower{}
+
+#but-often{
+  position: absolute;
+  width: 600px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: 250px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#but{
+  font-size: 72px;
+font-family: quicksand, sans-serif;
+font-weight: 300;
+}
+
+#often{
+  font-size: 36px;
+text-align: center;
+font-family: quicksand, sans-serif;
+font-weight: 300;
+}
+
+#confuse{
+  position: absolute;
+  height: 182px;
+  width: 182px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: 450px;
 }
 
 /*third block: what do you look for in a label*/
