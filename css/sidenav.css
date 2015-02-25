@@ -1,0 +1,46 @@
+/*side nav*/
+#side-nav{
+  position: fixed; 
+  margin-top: 310px;
+  z-index: 1000;
+}
+
+#side-nav-menu{
+  margin-left: 20px;
+  z-index: 1000;
+}
+
+.side-nav-circle{
+  width: 22px;
+  height: 21px;
+  border-style: none;
+  border-color: transparent;
+  background-color: #468966;
+  border-radius: 100px;
+  float: left;
+}
+
+.nav-item-text{
+  visibility: hidden;
+  display: inline;
+  z-index: 1000;
+  font-family: open-sans, sans-serif;
+  margin-left: 5px;
+  margin-top: 5px;
+  background:rgba(177,222,247,0.5)
+}
+
+.side-nav-connector{
+  width: 11px;
+  height: 100px;
+  border-right: solid #545454 2px;
+}
+
+a.link{
+  position: absolute;
+  width: 22px;
+  height: 21px;
+
+   /*edit: added z-index */
+  z-index: 1;
+}

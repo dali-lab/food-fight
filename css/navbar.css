@@ -1,0 +1,48 @@
+/**navbar stuff*/
+.top-bar{
+  background-color: #EDE8E0;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  letter-spacing: 14px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #545454;
+  font-size: 48px;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+.container-fluid{
+    background-color: #468966;
+}
+.nav{
+  width: 100%;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  /*display: inline-block;
+  float: none;*/
+}
+
+.nav>li{
+  width: 15%;
+  font-size: 18px;
+font-family: quicksand, sans-serif;
+font-weight: 300;
+}
+
+.navbar .nav > li > a,
+.navbar .nav > li > a:hover{
+    color: white;
+}
+
+.navbar .nav .active > a, 
+.navbar .nav .active > a:hover {
+  background-color: #EDE8E0;
+  color: #545454;
+}

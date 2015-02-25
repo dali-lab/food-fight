@@ -1,0 +1,330 @@
+/*body of landing page*/
+
+/*first block: slideshow and "do you know" bubble*/
+#block-1{
+  width: 100%;
+  height: 750px;
+  background-color: black;
+}
+
+#do-you-box-container{
+  position: absolute;
+  top: 50%;
+  margin-top: 84px;/* half of #do-you-box height*/
+  margin-left: 10%;
+  left: 0;
+  width: 100%;
+}
+
+#do-you-box{
+  width: 481px;
+  height: 268px;
+  border-radius: 30px 30px 30px 0px;
+  box-shadow: -4px 7px 1px rgba(0, 0, 0, 0.5);
+  border-color: #000000;
+  background-color: #EDE8E0;
+  z-index: 100;
+}
+
+#do-you{
+  z-index: 60;
+  width: 423px;
+  /*min-height: 75px;*/
+  font-size: 60px;
+  line-height: 72px;
+  font-family: arvo, serif;
+  font-weight: 400;
+  position: absolute;
+  /*margin-right: -10000px;*/
+  margin-top: 30px;
+  margin-bottom: 0px;
+  left: 29px;
+}
+
+#what-ur{
+  position: absolute;
+  font-size: 48px;
+  line-height: 58px;
+  font-family: arvo, serif;
+  font-weight: 400;
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+}
+
+#eating{
+  position: absolute;
+  color: #B32230;
+  font-size: 72px;
+  font-family: arvo, serif;
+  font-weight: 700;
+  font-style: italic;
+  margin-top: 120px;
+  margin-left: 30px;
+}
+
+/*second block: food labels...confuse*/
+#block-2{
+  position: relative;
+  height: 952px;
+  width: 100%;
+  background-color: #EDE8E0;
+}
+
+p{
+  margin-bottom: 0px;
+}
+
+#food-labels{
+  color: #000000;
+  font-size: 100px;
+  text-align: center;
+  font-family: quicksand, sans-serif;
+  font-weight: 300;
+  height: auto;
+  width: 738px;
+}
+
+#supposed{
+  color: #000000;
+  font-size: 36px;
+  text-align: center;
+  font-family: quicksand, sans-serif;
+  font-weight: 300;
+  width: 521px;
+  height: auto;
+  margin-top: -50px;
+  margin-bottom: 20px;
+  /*position: relative;*/
+}
+
+
+#circle-row{
+  position: absolute;
+  width: 840px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.circle-and-text{
+  /*make position absolute i think it will help*/
+  position: relative;
+  width: 160px;
+  float: left;
+}
+
+.circle{
+  height: 160px;
+  width: 160px;
+  border-radius: 100px;
+  background-color: #468966;
+  box-shadow: -4px 7px 1px rgba(0, 0, 0, 0.5);
+}
+
+.red-text{
+  font-family: arvo, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 36px;
+  text-align: center;
+  color: #B32230;
+  margin-top: 20px;
+}
+
+.icon{
+  width: 109px;
+  margin-top: 33px;
+  left: 22px;
+  position: relative;
+}
+
+#inform{
+  margin-right: 180px;
+}
+#protect{
+  margin-right: 180px;
+}
+#empower{}
+
+#but-often{
+  position: absolute;
+  width: 600px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: 250px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#but{
+  font-size: 72px;
+  font-family: quicksand, sans-serif;
+  font-weight: 300;
+}
+
+#often{
+  font-size: 36px;
+  text-align: center;
+  font-family: quicksand, sans-serif;
+  font-weight: 300;
+}
+
+#confuse{
+  position: absolute;
+  height: 182px;
+  width: 182px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: 450px;
+}
+
+/*third block: what do you look for in a label*/
+#block-3{
+  width: 100%;
+  height: 860px;
+  background-color: #545454;
+  position: relative;
+}
+
+#what-do-u{
+  position: absolute;
+  height: 193px;
+  width: 810px;
+  background-color: #EDE8E0;
+  border-radius: 30px 30px 30px 0px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 100px;
+}
+
+#what-do{
+  font-size: 60px;
+  color: #000000;
+  font-family: arvo, serif;
+  font-weight: 400;
+}
+
+#red-label{
+  font-size: 72px;
+  color: #B32230;
+  font-family: arvo, serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#label-words{
+  position: absolute;
+  width: 800px;
+  left: 5%;
+  right: 0;
+  margin: auto;
+  margin-top: 350px;
+}
+
+.word-row{
+  height: 100px;
+}
+
+.word-box{
+  height: 82px;
+  width: 343px;
+  background-color: #468966;
+  border-radius: 10px;
+  float: left;
+  margin-right: 50px;
+
+  color: #FFFFFF;
+  font-size: 48px;
+  text-align: center;
+  font-family: quicksand, sans-serif;
+  font-weight: 300;
+}
+
+#youve-seen{
+  position: absolute;
+  width: 766px;
+  height: 129px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 600px;
+
+  color: #FFFFFF;
+  font-size: 36px;
+  text-align: center;
+  font-family: quicksand, sans-serif;
+  font-weight: 300;
+
+}
+
+
+
+/*fourth block: start journey to healthy life*/
+#block-4{
+  width: 100%;
+  height: 575px;
+  background-color: #EDE8E0;
+}
+
+#ff-can{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 25px;
+
+  font-size: 60px;
+  text-align: center;
+  font-family: quicksand, sans-serif;
+  font-weight: 300;
+}
+
+#ff{
+  font-weight: 400;
+}
+
+#start-your{
+  position: absolute;
+  width: 803px;
+  height: 198px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 150px;
+  background-color: #468966;
+  border-radius: 30px;
+
+  color: #FFFFFF;
+  font-size: 60px;
+  line-height: 72px;
+  font-family: quicksand, sans-serif;
+  font-weight: 300;
+}
+
+#bottom-buttons{
+  position: absolute;
+  width: 750px;
+  left:0;
+  right:0;
+  margin: auto;
+  margin-top: 450px;
+}
+
+.bottom-button{
+  width: 354px;
+  /*height: 36px;*/
+  padding: 8px;
+  border: solid 1px #BAC2C7;
+  border-radius: 100px;
+
+  /*line-height: 36px;*/
+  color: #606972;
+  font-size: 30px;
+  text-align: center;
+  font-family: open-sans, sans-serif;
+  font-weight: 300;
+}
