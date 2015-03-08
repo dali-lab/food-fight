@@ -4,7 +4,6 @@ Parse.initialize("auhX12Zx76VCpMi4N0WMdLGHVihxJ2BbNjaiAsiS", "0uqFNRAqTibGlpkcLV
 //http://tristanedwards.me/sweetalert
 $.getScript("sweet-alert-lib/sweet-alert.min.js", function() { });
 
-var globresults;
 var Questions = Parse.Object.extend("Questions");
 var questions = new Parse.Query(Questions);
 questions.ascending("question_numb");
@@ -19,8 +18,8 @@ questions.find({
 })
 
 function submit(form_name, url) {
-  var Responses = Parse.Object.extend("Responses");
-  var survey = new Responses();
+  var Survey = Parse.Object.extend("Survey");
+  var survey = new Survey();
 
   var survdata = document.getElementById(form_name).elements;
   var wrongans = '';
@@ -33,8 +32,9 @@ function submit(form_name, url) {
         survey.set(survdata[i].id, survdata[i].value);
         
         var questnumb = survdata[i].id.substring(1);
-        
+        console.log(survdata[i]);
         if (survdata[i].value != globresults[questnumb - 1].get("correct")) {
+
           wrongans += "You got \"" + globresults[questnumb - 1].get("question") + "\" incorrect.\nThe correct answer is: \"";
           wrongans += globresults[questnumb - 1].get("correct") + "\" because " + globresults[questnumb - 1].get("explanation") + ".\n\n";
         }

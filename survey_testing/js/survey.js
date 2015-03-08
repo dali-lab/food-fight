@@ -10,7 +10,7 @@ questions.ascending("question_numb");
 
 questions.find({
   success: function(results) {
-    globresults = results;
+    var globresults = results;
   },
   error: function(error) {
     alert("Error");
