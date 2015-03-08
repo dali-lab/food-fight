@@ -4,6 +4,7 @@ Parse.initialize("auhX12Zx76VCpMi4N0WMdLGHVihxJ2BbNjaiAsiS", "0uqFNRAqTibGlpkcLV
 //http://tristanedwards.me/sweetalert
 $.getScript("sweet-alert-lib/sweet-alert.min.js", function() { });
 
+var globresults;
 var Questions = Parse.Object.extend("Questions");
 var questions = new Parse.Query(Questions);
 questions.ascending("question_numb");
