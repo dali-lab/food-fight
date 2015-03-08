@@ -18,8 +18,8 @@ questions.find({
 })
 
 function submit(form_name, url) {
-  var Survey = Parse.Object.extend("Survey");
-  var survey = new Survey();
+  var Responses = Parse.Object.extend("Responses");
+  var survey = new Responses();
 
   var survdata = document.getElementById(form_name).elements;
   var wrongans = '';
