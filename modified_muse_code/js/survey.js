@@ -32,7 +32,9 @@ function submit(form_name, url) {
         survey.set(survdata[i].id, survdata[i].value);
         
         var questnumb = survdata[i].id.substring(1);
-
+        console.log(survdata[i].value);
+        console.log(globresults[questnumb - 1].get("correct"));
+        
         if (survdata[i].value != globresults[questnumb - 1].get("correct")) {
 
           wrongans += "You got \"" + globresults[questnumb - 1].get("question") + "\" incorrect.\nThe correct answer is: \"";

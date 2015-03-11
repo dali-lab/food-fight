@@ -1,7 +1,29 @@
 <!DOCTYPE html>
 <html class="html" lang="en-US">
  <head>
-
+ <!--
+ SURVEY STUFF
+ -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.3.4.min.js"></script>
+      
+  <script type="text/javascript" src="js/survey.js"></script>
+  <script type="text/javascript" src="js/populate_surv.js"></script>
+  <script>
+    $(document).ready(function() {
+      populate_survey('form', "chickens");  
+    })
+  </script>
+  <!--
+  SweetAlert written by Tristan Edwards with free-use license
+  http://tristanedwards.me/sweetalert
+  -->
+  <script src="sweet-alert-lib/sweet-alert.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="sweet-alert-lib/sweet-alert.css">
+  
+  <!--
+ END SURVEY STUFF
+ -->
   <script type="text/javascript">
    if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.watch.js", "jquery.musemenu.js", "poultry.css"], "outOfDate":[]};
 </script>
@@ -204,6 +226,13 @@ var __adobewebfontsappname__ = "muse";
       <p class="ts04-Body-Sans-Light" id="u1069-2">quis tristique nibh elit id tortor. Nullam metus dolor, aliquam sed odio quis, scelerisque interdum felis. Ut in fermentum tortor. interdum felis. Ut in fermentum tortor.</p>
      </div>
     </div>
+    
+    
+    
+
+        <!-- SURVEY -->
+    
+
     <div class="clearfix colelem" id="u1052-4"><!-- content -->
      <p>Poll&#45;try time!</p>
     </div>
@@ -216,55 +245,20 @@ var __adobewebfontsappname__ = "muse";
       </div>
       <div class="clearfix" id="pu1046-4"><!-- column -->
        <div class="clearfix colelem" id="u1046-4"><!-- content -->
-        <p>How much cholesterol does a regular sized egg contain?</p>
-       </div>
-       <div class="clearfix colelem" id="pu1024"><!-- group -->
-        <div class="rounded-corners grpelem" id="u1024"><!-- simple frame --></div>
-        <div class="clearfix grpelem" id="u1042-4"><!-- content -->
-         <p>100mg</p>
-        </div>
-        <div class="clearfix grpelem" id="u1012-4"><!-- content -->
-         <p>200mg</p>
-        </div>
-        <div class="clearfix grpelem" id="u1003-4"><!-- content -->
-         <p>300mg</p>
-        </div>
-        <div class="rounded-corners grpelem" id="u1027"><!-- simple frame --></div>
-        <div class="clearfix grpelem" id="u1066-4"><!-- content -->
-         <p>400mg</p>
-        </div>
-       </div>
-       <div class="clearfix colelem" id="u1065-4"><!-- content -->
-        <p>How much saturated fat does a regular sized egg contain?</p>
-       </div>
-       <div class="clearfix colelem" id="pu1016"><!-- group -->
-        <div class="rounded-corners grpelem" id="u1016"><!-- simple frame --></div>
-        <div class="clearfix grpelem" id="u1053-4"><!-- content -->
-         <p>100mg</p>
-        </div>
-        <div class="clearfix grpelem" id="u1057-4"><!-- content -->
-         <p>200mg</p>
-        </div>
-        <div class="clearfix grpelem" id="u1035-4"><!-- content -->
-         <p>300mg</p>
-        </div>
-        <div class="rounded-corners grpelem" id="u1044"><!-- simple frame --></div>
-        <div class="clearfix grpelem" id="u1019-4"><!-- content -->
-         <p>400mg</p>
-        </div>
-       </div>
-       <div class="rounded-corners shadow clearfix colelem" id="u1049"><!-- group -->
-        <div class="clearfix grpelem" id="u1067-4"><!-- content -->
-         <p>Check your answers and move on to the next section!</p>
-        </div>
-       </div>
+        <p></p><form id='form'></form>
+      
+        <button onclick="submit('form', 'poultry.html')">Submit</button></p>
       </div>
      </div>
-     <div class="rounded-corners grpelem" id="u1010"><!-- simple frame --></div>
-     <div class="rounded-corners grpelem" id="u1072"><!-- simple frame --></div>
-     <div class="rounded-corners grpelem" id="u1058"><!-- simple frame --></div>
-     <div class="rounded-corners grpelem" id="u1050"><!-- simple frame --></div>
-    </div>
+     </div>
+    
+        
+
+
+     <!-- END SURVEY -->
+    
+    
+    
     <div class="verticalspacer"></div>
    </div>
   </div>
