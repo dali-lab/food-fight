@@ -8,11 +8,11 @@ $( "a.link" ).hover(
 		$(this).parent().parent().children(".nav-item-text").css("visibility", "hidden");
 	}
  );
-    sideNavPosition();
+    // sideNavPosition();
 });
 
 /*taken from http://jsfiddle.net/anjzb/ */
-$(window).scroll(sideNavPosition);
+// $(window).scroll(sideNavPosition);
 
 function sideNavPosition(){
     var sOffset = $(".above-side-nav").offset().top;
