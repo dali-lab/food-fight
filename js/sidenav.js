@@ -24,7 +24,7 @@ function sideNavPosition(){
     
     //if the at the top of the page, keep sidenav just under the top bar of content
     if (y > sOffset + barheight) {
-        console.log("moving");
+        // console.log("moving");
         $("#side-nav").css({
             'margin-top': '20px', //20px is space between top bar and the top of the sidenav
         });
