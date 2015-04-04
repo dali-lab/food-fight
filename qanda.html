@@ -23,9 +23,9 @@
   <!--
   SweetAlert written by Tristan Edwards with free-use license
   http://tristanedwards.me/sweetalert
--->
-<script src="sweet-alert-lib/sweet-alert.min.js"></script>
-<link rel="stylesheet" type="text/css" href="sweet-alert-lib/sweet-alert.css">
+  -->
+  <script src="sweet-alert-lib/sweet-alert.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="sweet-alert-lib/sweet-alert.css">
 
 </head>
 
@@ -58,7 +58,7 @@
     <h6>Ask a Question!</h6>
     <h6>Your email will not be shown</h6>
   </div>
-  <form style="height: 100px;">
+  <form id="submit_box" style="height: 100px;">
     <fieldset>
       <div id="name-email">
       Name:<br>
@@ -72,7 +72,7 @@
       Question:
       <input type="text" name="question" value="Enter Your Message">
       <br><br>
-      <input type="submit" value="Submit">
+      <button type="button" onclick="submit_q('submit_box')">Submit</button>
     </div>
     </fieldset>
   </form>

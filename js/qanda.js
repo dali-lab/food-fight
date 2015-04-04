@@ -14,11 +14,12 @@ function populate_qanda(qandaname) {
     qanda.find ({
         success: function(qandaresults) {
             for (var i=0; i < qandaresults.length; i++) {
-                qandastring += '<div class="question" align="right">' + qandaresults[i].get("Question") + '</div> <br />';
-                qandastring += '<div class="answer" align="left">' + qandaresults[i].get("Answer") + '</div><br /><br />';
-                qandastring += '<img class="separator" src="images/dashed%20separator.png" alt="" width="500" height="4">'
+                if (qandaresults[i].get("Show") == "T") {
+                    qandastring += '<div class="question" align="right">' + qandaresults[i].get("Question") + '</div> <br />';
+                    qandastring += '<div class="answer" align="left">' + qandaresults[i].get("Answer") + '</div><br /><br />';
+                    qandastring += '<img class="separator" src="images/dashed%20separator.png" alt="" width="500" height="4">'
+                }
             }
-            
             document.getElementById(qandaname).innerHTML = qandastring;
             
         },
@@ -26,7 +27,32 @@ function populate_qanda(qandaname) {
             console.log("error");
         }
     })
+       
+}
+
+function submit_q(form_name) {
+    var QandA = Parse.Object.extend("QandA");
+    var question = new QandA();
     
+    var sub_data = document.getElementById(form_name).elements;
+
+    question.set("Name", sub_data[1].value);
+    question.set("Email", sub_data[2].value);
+    question.set("Question", sub_data[3].value);
+    question.set("Show", "F");
     
-    
+    question.save(null, {
+        success: function(question) {
+            swal({
+                title: 'Thank you for the question!',
+                text: 'It will be reviewed and answered in the next few days',
+                type: "success",
+                confirmButtonText: "OK"
+            });
+        },
+        
+        error: function(question, error) {
+            swal("Failed to collect data - please try again!");
+        }
+    });
 }
