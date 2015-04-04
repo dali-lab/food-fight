@@ -14,9 +14,8 @@ function populate_qanda(qandaname) {
     qanda.find ({
         success: function(qandaresults) {
             for (var i=0; i < qandaresults.length; i++) {
-                qandastring += qandaresults[i].get("Question") + '<br />';
-                qandastring += '----------------------------------------------------------------------------------------------<br />';
-                qandastring += '<div align=\'right\'>' + qandaresults[i].get("Answer") + '</div><br /><br />';
+                qandastring += '<div class="question">' + qandaresults[i].get("Question") + '</div>';
+                qandastring += '<div class="answer">' + qandaresults[i].get("Answer") + '</div>';
             }
             
             document.getElementById(qandaname).innerHTML = qandastring;

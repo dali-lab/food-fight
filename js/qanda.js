@@ -14,9 +14,9 @@ function populate_qanda(qandaname) {
     qanda.find ({
         success: function(qandaresults) {
             for (var i=0; i < qandaresults.length; i++) {
-                qandastring += qandaresults[i].get("Question") + '<br />';
-                qandastring += '----------------------------------------------------------------------------------------------<br />';
-                qandastring += '<div align=\'right\'>' + qandaresults[i].get("Answer") + '</div><br /><br />';
+                qandastring += '<div class="question" align="right">' + qandaresults[i].get("Question") + '</div> <br />';
+                qandastring += '<div class="answer" align="left">' + qandaresults[i].get("Answer") + '</div><br /><br />';
+                qandastring += '<img class="separator" src="images/dashed%20separator.png" alt="" width="500" height="4">'
             }
             
             document.getElementById(qandaname).innerHTML = qandastring;
