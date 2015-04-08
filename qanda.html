@@ -52,28 +52,31 @@
   <div id="qanda"></div>
 </div>  
 
-<div id="submissions">
+<div id="submissions" style="height:15%">
   <div id="form-container">
   <div id="prompt">
-    <h6>Ask a Question!</h6>
-    <h6>Your email will not be shown</h6>
+    <br />
+    Ask a Question! Your name and email will not be shown.<br /><br />
   </div>
-  <form id="submit_box" style="height: 100px;">
+  <form id="submit_box" style="height: auto;">
     <fieldset>
+      <table style="width:100%">
       <div id="name-email">
-      Name:<br>
-      <input type="text" name="name" value="Enter Name">
-      <br>
-      Email:<br>
-      <input type="text" name="email" value="Enter Email">
-    </div>
-      <br>
+      <tr>
+        <td>Name:</td>
+        <td><input type="text" name="name" value="Enter Name"></td>
+        <td>Email:</td>
+        <td><input type="text" name="email" value="Enter Email"></td>
+      </div>
+      
       <div class="question-box">
-      Question:
-      <input type="text" name="question" value="Enter Your Message">
-      <br><br>
-      <button type="button" onclick="submit_q('submit_box')">Submit</button>
-    </div>
+
+        <td>Question:</td>
+        <td><input type="text" name="question" value="Enter Your Message"></td>
+        <td><button type="button" onclick="submit_q('submit_box')">Submit</button></td>
+      </tr>
+      </div>
+      </table>
     </fieldset>
   </form>
 
