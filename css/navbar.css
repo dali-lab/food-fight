@@ -1,4 +1,13 @@
-/**navbar stuff*/
+/*for all pages, need this to prevent white space on right*/
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/**navbar*/
 .top-bar{
   background-color: #EDE8E0;
   height: 90px;
@@ -25,8 +34,6 @@
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
-  /*display: inline-block;
-  float: none;*/
 }
 
 .nav>li{

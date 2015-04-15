@@ -36,6 +36,7 @@
 }
 
 #submissions{
+	overflow: scroll;
 	position: fixed;
 	bottom: 0px;
 	width: 100%;
@@ -47,11 +48,18 @@
 }
 
 .question-box{
-	display: inline-block;
-	float: right;
-	margin-top: -100px;
+	margin-left: 200px;
 }
 
+#forms{
+	height: 100px;
+	width: 500px;
+}
+
+#name-email{
+	width: 120px;
+	float: left;
+}
 
 #form-container{
 	width: 800px;
