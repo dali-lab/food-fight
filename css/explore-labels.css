@@ -26,7 +26,7 @@ font-weight: 300;
 
 #label-button-row{
 	position: absolute;
-	width: 650px;
+	width: 660px;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -36,6 +36,7 @@ font-weight: 300;
 .label-nav-button{
 	height: 90px;
 	width: 90px;
+
 	box-shadow: -4px 7px 1px rgba(0, 0, 0, 0.5);
 	border-style: none;
 	border-color: transparent;
@@ -45,6 +46,22 @@ font-weight: 300;
 	float: left;
 	margin-top: -30px;
 	margin-right: 20px;
+	
+border-style: none;
+border-color: transparent;
+background-color: #468966;
+border-radius: 100px;
+
+
+	float: left;
+
+	margin-right: 20px;
+}
+.label-nav-button:hover{
+	/*box-shadow: -4px 7px 1px rgba(0, 0, 0, 0.5);*/
+	/*box-shadow: 7px #44B8E9;*/
+	/*outline: solid 7px #44B8E9;*/
+	box-shadow: 0 0 0 7pt #44B8E9;
 
 }
 
@@ -63,6 +80,7 @@ font-weight: 300;
 .egg-text{
 	background-color: #F5F3E9;
 	border-radius: 10px;
+	height: 200px;
 }
 
 .poultry-text{
@@ -108,9 +126,17 @@ font-weight: 300;
 }
 
 #poultry-overview{
+<<<<<<< HEAD
 	margin-left: 54px;
 	margin-right: 60px;
 	margin-top: 30px
+=======
+	  margin-left: 54px;
+  margin-right: 60px;
+    margin-top: 30px
+;
+	  height: 320px;
+>>>>>>> db73ab702cfbb76d653680a178d731584e4d58a3
 }
 
 .overview-text{
@@ -120,7 +146,7 @@ font-weight: 300;
 }
 
 #click-the-label{
-		width: 900px;
+		width: 1000px;
 	margin: auto;
 	margin-top: 50px;
 }
@@ -131,7 +157,8 @@ font-weight: 300;
 
 #poultry-pic-and-buttons{
 	width: 598px;
-	display: inline-block;
+	/* display: inline-block; */
+	/* float: left; */
 }
 
 .label-button{
@@ -147,7 +174,7 @@ font-weight: 300;
 }
 
 #USDA-organic{
-margin-left: 98px;
+margin-left: 144px;
   
 margin-top: 43px;
 	  
@@ -159,47 +186,47 @@ height: 85px;
 
 /** egg labels */ 
 #all-natural{
-    margin-left: 186px;
+    margin-left: 232px;
 
     margin-top: 50px;
     height: 30px;
     width: 150px;
 }
 #no-antibiotics{
-  margin-left: 186px;   
+  margin-left: 231px;   
   margin-top: 84px;   height: 30px;   
   width: 200px;
 }
 #free-roaming{
-    margin-left: 163px;   
+    margin-left: 210px;   
     margin-top: 158px;   
     height: 25px;   
     width: 160px;
 
 }
 #no-hormones{
-    margin-left: 139px;   
+    margin-left: 185px;   
     margin-top: 184px;   
     height: 25px;   
     width: 210px;
 }
 #grade-a{
-    margin-left: 536px;   
+    margin-left: 583px;   
     margin-top: 174px;   
     width: 115px;   
     height: 39px;
 }
 #omega-3{
-    margin-left: 539px;   margin-top: 64px;   width: 152px;   height: 49px;
+    margin-left: 579px;   margin-top: 64px;   width: 152px;   height: 49px;
 }
 #saturated-fat{
-    margin-left: 722px;   
+    margin-left: 766px;   
     margin-top: 34px;   
     width: 102px;   
     height: 59px;
 }
 #vitamin-e{
-    margin-left: 722px;   
+    margin-left: 765px;   
     margin-top: 121px;   
     width: 112px;   height: 59px;
 }
@@ -220,7 +247,7 @@ height: 85px;
 #poultry-no-antibiotics{
     height: 26px;   
     width: 136px;   
-    margin-left: 441px;   
+    margin-left: 439px;   
     margin-top: 308px;
 }
 #free-range{
@@ -230,7 +257,8 @@ height: 85px;
     margin-top: 23px;
 }
 #poultry-no-hormones{
-    height: 26px;   width: 136px;   margin-left: 441px;   
+    height: 26px;   width: 136px;   
+    margin-left: 441px;   
     margin-top: 336px;
 }
 #vegetarian-fed{
@@ -243,8 +271,7 @@ height: 85px;
 
 
 .label-text-box{
-	overflow: scroll;
-	position: relative;
+	 	position: relative;
   top: 350px;
   
 	margin: auto;
@@ -257,25 +284,47 @@ height: 85px;
 
 #poultry-label-text-box{
 	max-width: 367px;
-	margin-left: 610px;
-	margin-top: -16px;
+	margin-left: 620px;
+	/* display: inline-block; */
+	/* margin-top: -49px; */
+	position: absolute;
+	margin-left: 620px;
+	margin-top: 570px;
+	height: 303px;
 }
 
 .label-click-info{
-	padding: 20px;
-	  font-size: 18px;
+	  
+	border: 20px solid transparent;
+	height: 100%;
+	font-size: 18px;
   color: #000000;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
 
+  
+	/* -webkit-column-count: 2; */ /* Chrome, Safari, Opera */
+    /*-moz-column-count: 2;*/ /* Firefox */
+    /*column-count: 2;*/
+
+	overflow-y: scroll;
 }
 
-#terms-to-look-for{
+.terms-to-look-for{
 	position: relative;
 	width: 900px;
 	margin: auto;
-	margin-top: 400px;
+
 }
+
+#egg-terms{
+	margin-top: 380px;
+}
+#poultry-terms{
+	margin-top: 500px;
+}
+
+
 
 .terms-title{
 	  line-height: 43px;
