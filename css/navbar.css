@@ -1,4 +1,17 @@
-/**navbar stuff*/
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300');
+@import url('http://fonts.googleapis.com/css?family=Quicksand:300');
+
+/*for all pages, need this to prevent white space on right*/
+html,body
+{
+    width: 101%;
+    margin: -1px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/**navbar*/
 .top-bar{
   background-color: #EDE8E0;
   height: 90px;
@@ -25,15 +38,13 @@
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
-  /*display: inline-block;
-  float: none;*/
 }
 
 .nav>li{
-  width: 15%;
+  width: 18%;
   font-size: 18px;
-font-family: quicksand, sans-serif;
-font-weight: 300;
+  font-family: quicksand, sans-serif;
+  font-weight: 300;
 }
 
 .navbar .nav > li > a,

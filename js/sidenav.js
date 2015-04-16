@@ -10,6 +10,9 @@ $( "a.link" ).hover(
 		$(this).parent().parent().children(".nav-item-text").css("visibility", "hidden");
 	}
  );
+
+    sideNavPosition();
+
 });
 
 /*based on model at http://jsfiddle.net/anjzb/ */

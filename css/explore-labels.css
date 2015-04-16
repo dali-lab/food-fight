@@ -54,8 +54,17 @@ margin-right: 20px;
 	z-index: 1;
 }
 
+.egg-text{
+	background-color: #F5F3E9;
+	border-radius: 10px;
+}
 
-#egg-title{
+.poultry-text{
+	background-color: #fce4cc;
+	border-radius: 10px;
+}
+
+.main-title{
 	width: 200px;
 	margin: auto;
 	margin-top: 13px;
@@ -67,27 +76,38 @@ margin-right: 20px;
   text-align: center;
 }
 
-#pic-and-overview{
+.pic-and-overview{
 	width: 900px;
 	margin: auto;
 }
 
-#egg-pic{
+.pic{
 	margin-left: 20px;
 	margin-right: 30px;
 	display: inline-block;
 }
 
-#egg-overview{
-	/*margin-right: 20px;*/
+#egg-pic{}
+#poultry-pic{}
+
+.overview{
+	
 	display: inline-block;
 	width: 348px;
-  border-color: #000000;
-  background-color: #CBCBCB;
-    border-radius: 10px;
+  
+	border-color: #000000;
+    
+	/* border-radius: 20px; */
+	margin-top: 30px;
 }
 
-#overview-text{
+#poultry-overview{
+	  margin-left: 54px;
+  margin-right: 60px;
+    margin-top: 30px
+}
+
+.overview-text{
 	padding: 20px;
 }
 
@@ -97,66 +117,143 @@ margin-right: 20px;
 	margin-top: 50px;
 }
 
-#pic-and-buttons{
+.pic-and-buttons{
 	position: relative;
+}
+
+#poultry-pic-and-buttons{
+	width: 598px;
+	display: inline-block;
 }
 
 .label-button{
 	position: absolute;
-	border-color: #000000;
-  background-color: #606972;
-  opacity: 0.5;
+	border: 2px solid #44B8E9;
       border-radius: 20px;
 }
 
 .label-button:hover{
-	  background-color: #7990B6;
+	border-color: white;
 	cursor: hand;
 	cursor: pointer;
 }
 
-#green{
-margin-left: 129px;
-  margin-top: 50px;
-	  width: 267px;
-  height: 69px;
+#USDA-organic{
+margin-left: 98px;
+  
+margin-top: 43px;
+	  
+width: 85px;
+  
+height: 85px;
 
 }
 
-#red{
-  margin-left: 130px;
-  margin-top: 160px;
-	  width: 220px;
-  height: 46px;
+/** egg labels */ 
+#all-natural{
+    margin-left: 186px;
+
+    margin-top: 50px;
+    height: 30px;
+    width: 150px;
+}
+#no-antibiotics{
+  margin-left: 186px;   
+  margin-top: 84px;   height: 30px;   
+  width: 200px;
+}
+#free-roaming{
+    margin-left: 163px;   
+    margin-top: 158px;   
+    height: 25px;   
+    width: 160px;
 
 }
-
-#yellow{
-  margin-left: 539px;
-  margin-top: 64px;
-width: 152px;
-  height: 49px;
+#no-hormones{
+    margin-left: 139px;   
+    margin-top: 184px;   
+    height: 25px;   
+    width: 210px;
+}
+#grade-a{
+    margin-left: 536px;   
+    margin-top: 174px;   
+    width: 115px;   
+    height: 39px;
+}
+#omega-3{
+    margin-left: 539px;   margin-top: 64px;   width: 152px;   height: 49px;
+}
+#saturated-fat{
+    margin-left: 722px;   
+    margin-top: 34px;   
+    width: 102px;   
+    height: 59px;
+}
+#vitamin-e{
+    margin-left: 722px;   
+    margin-top: 121px;   
+    width: 112px;   height: 59px;
 }
 
-#grey{
-	  margin-left: 527px;
-  margin-top: 134px;
-	width: 170px;
-  height: 52px;
+
+/* poultry labels */
+#cage-free{
+    height: 26px;   
+    width: 80px;   
+    margin-left: 311px;   margin-top: 23px;
+}
+#poultry-all-natural{
+    width: 160px;
+    height: 90px;
+    margin-left: 50px;
+    margin-top: 146px;
+}
+#poultry-no-antibiotics{
+    height: 26px;   
+    width: 136px;   
+    margin-left: 441px;   
+    margin-top: 308px;
+}
+#free-range{
+    height: 26px;
+    width: 89px;
+    margin-left: 211px;
+    margin-top: 23px;
+}
+#poultry-no-hormones{
+    height: 26px;   width: 136px;   margin-left: 441px;   
+    margin-top: 336px;
+}
+#vegetarian-fed{
+    height: 26px;   
+    width: 117px;   
+    margin-left: 402px;   margin-top: 23px;
 }
 
-#label-text-box{
+
+
+
+.label-text-box{
+	overflow: scroll;
 	position: relative;
   top: 350px;
-  margin: auto;
+  
+	margin: auto;
 	width: 719px;
-  height: 310px;
-  border-color: #000000;
-  background-color: #CBCBCB;
-    border-radius: 20px;
+  
+	border-color: #000000;
+    
+	border-radius: 20px;
 }
 
-#label-click-info{
+#poultry-label-text-box{
+	max-width: 367px;
+	margin-left: 610px;
+	margin-top: -16px;
+}
+
+.label-click-info{
 	padding: 20px;
 	  font-size: 18px;
   color: #000000;
@@ -172,7 +269,7 @@ width: 152px;
 	margin-top: 400px;
 }
 
-#terms-title{
+.terms-title{
 	  line-height: 43px;
   font-size: 36px;
   font-family: arvo, serif;
@@ -213,14 +310,14 @@ td{
 	margin-top: 50px;
 }
 
-#quiz-title{
+.quiz-title{
 	line-height: 43px;
   font-size: 36px;
   font-family: arvo, serif;
   font-weight: 400;
 }
 
-#quiz-box{
+.quiz-box{
 	margin: auto;
 	margin-bottom: 40px;
 	margin-top: 20px;
@@ -235,6 +332,6 @@ td{
   font-weight: 300;
 }
 
-#quiz-text{
+.quiz-text{
 	padding: 20px;
 }
