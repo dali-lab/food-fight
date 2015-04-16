@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/qanda.css">
 
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    
+    
   <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
   <script src="dist/js/bootstrap.min.js"></script>
 
@@ -31,46 +34,42 @@
 
 <body>
  <nav class="navbar navbar-default">
-  <div class="top-bar">Food Fight</div>
   <div class="container-fluid">
     <div>
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="basics.html">Basics</a></li> 
         <li><a href="explore-labels.html">Explore Labels</a></li> 
         <li><a href="glossary.html">Glossary</a></li> 
-        <li><a href="#">FAQs</a></li> 
-        <li><a href="#">Blog</a></li> 
+        <li class="active"><a href="">Q & A</a></li> 
       </ul>
     </div>
-  </div>
 </nav>
 
 <div id="qanda-title">Q and A</div>
 
 <div id='qanda-container'>
-  <div id="qanda"></div>
+  <div id="qanda" style="font-family:'Open Sans'"></div>
 </div>  
 
-<div id="submissions" style="height:15%">
-  <div id="form-container">
-  <div id="prompt">
+<div id="submissions" style="height:15%; font-family:'Open Sans';  font-size: small">
+  <div id="form-container" style="font-size: small">
+  <div id="prompt" style="font-size: small">
     <br />
     Ask a Question! Your name and email will not be shown.<br /><br />
   </div>
-  <form id="submit_box" style="height: auto;">
-    <fieldset>
-      <table style="width:100%">
-      <div id="name-email">
-      <tr>
+  <form id="submit_box" style="height: auto; font-family:'Open Sans'" style="font-size: small">
+    <fieldset style="font-size: small">
+      <table style="width:100%" style="font-size: small">
+      <div id="name-email" style="font-size: small">
+      <tr style="font-size: small">
         <td>Name:</td>
         <td><input type="text" name="name" value="Enter Name"></td>
         <td>Email:</td>
         <td><input type="text" name="email" value="Enter Email"></td>
       </div>
       
-      <div class="question-box">
-
+      <div class="question-box" style="font-size: small">
         <td>Question:</td>
         <td><input type="text" name="question" value="Enter Your Message"></td>
         <td><button type="button" onclick="submit_q('submit_box')">Submit</button></td>

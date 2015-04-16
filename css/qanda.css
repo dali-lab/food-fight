@@ -8,9 +8,10 @@
 }
 
 #qanda-container{
-	width: 800px;
+	width: 900px;
 	margin: auto;
 	margin-bottom: 160px;
+	font-size: 15px;
 }
 
 .question{
@@ -19,7 +20,7 @@
 	background-color: #EDE8E0;
 	border-radius: 30px 30px 0px 30px;
 	margin-bottom: 10px;
-	padding: 10px;
+	padding: 20px;
 }
 
 .answer{
@@ -28,7 +29,7 @@
 	border-radius: 30px 30px 30px 0px;
 	background-color: #A2C4B4;
 	margin-bottom: 30px;
-	padding: 10px;
+	padding: 20px;
 }
 
 .separator{
@@ -47,6 +48,7 @@
 }
 
 .question-box{
+	font-size: small;
 	display: inline-block;
 	float: right;
 	margin-top: -100px;
