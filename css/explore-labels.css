@@ -26,7 +26,7 @@ font-weight: 300;
 
 #label-button-row{
 	position: absolute;
-	width: 650px;
+	width: 660px;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -42,8 +42,10 @@ border-color: transparent;
 background-color: #468966;
 border-radius: 100px;
 
-float: left;
-margin-right: 20px;
+
+	float: left;
+
+	margin-right: 20px;
 }
 .label-nav-button:hover{
 	/*box-shadow: -4px 7px 1px rgba(0, 0, 0, 0.5);*/
@@ -67,6 +69,7 @@ margin-right: 20px;
 .egg-text{
 	background-color: #F5F3E9;
 	border-radius: 10px;
+	height: 200px;
 }
 
 .poultry-text{
@@ -272,19 +275,20 @@ height: 85px;
 }
 
 .label-click-info{
-	
-	padding: 20px;
 	  
+	border: 20px solid transparent;
 	height: 100%;
 	font-size: 18px;
   color: #000000;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
 
-  -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
+  
+	/* -webkit-column-count: 2; */ /* Chrome, Safari, Opera */
+    /*-moz-column-count: 2;*/ /* Firefox */
+    /*column-count: 2;*/
 
+	overflow-y: scroll;
 }
 
 .terms-to-look-for{
