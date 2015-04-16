@@ -25,7 +25,7 @@ function populate_survey(form_name, survey_name) {
         success: function(results) {
 
           var questions = '';
-          questions += '<div id="survey">'
+          
           for (var i=0; i < results.length; i++) {
             if ($.inArray(results[i].get("question_numb"), quest_array) != -1) {
 
@@ -37,8 +37,7 @@ function populate_survey(form_name, survey_name) {
             
                }
           }
-  
-          questions += '</div>'
+
           
           document.getElementById(form_name).innerHTML = questions;
           
