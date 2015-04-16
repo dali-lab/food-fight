@@ -5,8 +5,8 @@
 /*for all pages, need this to prevent white space on right*/
 html,body
 {
-    width: 101%;
-    margin: -1px;
+    width: 100%;
+    margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
 }
