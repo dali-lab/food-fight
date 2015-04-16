@@ -1,3 +1,7 @@
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300');
+@import url('http://fonts.googleapis.com/css?family=Quicksand:300');
+
 /*for all pages, need this to prevent white space on right*/
 html,body
 {
@@ -37,10 +41,10 @@ html,body
 }
 
 .nav>li{
-  width: 15%;
+  width: 18%;
   font-size: 18px;
-font-family: quicksand, sans-serif;
-font-weight: 300;
+  font-family: quicksand, sans-serif;
+  font-weight: 300;
 }
 
 .navbar .nav > li > a,

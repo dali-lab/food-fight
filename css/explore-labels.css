@@ -1,3 +1,7 @@
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300');
+@import url('http://fonts.googleapis.com/css?family=Quicksand:300');
+
 #explore-label-nav{
 	position: relative;
 	height: 250px;
@@ -16,7 +20,7 @@
 color: #000000;
 font-size: 24px;
 text-align: center;
-font-family: open-sans, sans-serif;
+font-family: 'Open Sans', sans-serif;
 font-weight: 300;
 }
 
@@ -77,7 +81,7 @@ margin-right: 20px;
 	margin-bottom: 30px;
 	line-height: 60px;
   font-size: 50px;
-  font-family: quicksand, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 300;
   text-align: center;
 }
@@ -275,7 +279,7 @@ height: 85px;
 	font-size: 18px;
   color: #000000;
   font-weight: 400;
-  font-family: open-sans, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 
   -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
@@ -302,7 +306,7 @@ height: 85px;
 .terms-title{
 	  line-height: 43px;
   font-size: 36px;
-  font-family: arvo, serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 
 }
@@ -324,7 +328,7 @@ height: 85px;
 	width: 300px;
 	  font-size: 18px;
   color: #000000;
-  font-family: open-sans, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 td{
@@ -338,12 +342,13 @@ td{
 	width: 900px;
 	margin: auto;
 	margin-top: 50px;
+
 }
 
 .quiz-title{
 	line-height: 43px;
   font-size: 36px;
-  font-family: arvo, serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
 
@@ -358,10 +363,16 @@ td{
   border-radius: 20px;
     line-height: 29px;
   font-size: 24px;
-  font-family: open-sans, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 
 .quiz-text{
 	padding: 20px;
+	column-count: 2;
+	column-gap: 30px;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 30px;
+	-moz-column-count: 2;
+	-moz-column-gap: 30px;
 }

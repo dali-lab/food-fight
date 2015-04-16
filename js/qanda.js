@@ -15,6 +15,8 @@ function populate_qanda(qandaname) {
         success: function(qandaresults) {
             for (var i=0; i < qandaresults.length; i++) {
                 if (qandaresults[i].get("Show") == "T") {
+                    date = String(qandaresults[i].updatedAt);
+                    qandastring += '<div align="right">' + date.substring(4, 15) + '</div>';
                     qandastring += '<div class="question" align="right">' + qandaresults[i].get("Question") + '</div> <br />';
                     qandastring += '<div class="answer" align="left">' + qandaresults[i].get("Answer") + '</div><br /><br />';
                     qandastring += '<img class="separator" src="images/dashed%20separator.png" alt="" width="500" height="4">'
