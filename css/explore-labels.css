@@ -149,7 +149,7 @@ border-radius: 100px;
 }
 
 .label-button:hover{
-	border-color: white;
+	border: 3px solid #44B8E9;
 	cursor: hand;
 	cursor: pointer;
 }
