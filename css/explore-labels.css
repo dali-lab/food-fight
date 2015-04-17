@@ -391,7 +391,8 @@ td{
 }
 
 .quiz-text{
-	padding: 20px;
+	padding: 20px 20px 0px 20px;
+
 /*	column-count: 2;
 	column-gap: 30px;
 	-webkit-column-count: 2;
@@ -399,3 +400,9 @@ td{
 	-moz-column-count: 2;
 	-moz-column-gap: 30px;*/
 }
+
+.submit-button {
+	padding-bottom: 10px;
+	text-align: center;
+}
+
