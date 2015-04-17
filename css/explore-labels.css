@@ -37,7 +37,7 @@ font-weight: 300;
 	height: 90px;
 	width: 90px;
 
-	box-shadow: -4px 7px 1px rgba(0, 0, 0, 0.5);
+	/*box-shadow: -4px 7px 1px rgba(0, 0, 0, 0.5);*/
 	border-style: none;
 	border-color: transparent;
 	background-color: #468966;
@@ -45,16 +45,6 @@ font-weight: 300;
 	
 	float: left;
 	margin-top: -30px;
-	margin-right: 20px;
-	
-border-style: none;
-border-color: transparent;
-background-color: #468966;
-border-radius: 100px;
-
-
-	float: left;
-
 	margin-right: 20px;
 }
 .label-nav-button:hover{
@@ -80,7 +70,6 @@ border-radius: 100px;
 .egg-text{
 	background-color: #F5F3E9;
 	border-radius: 10px;
-	height: 200px;
 }
 
 .poultry-text{
@@ -126,23 +115,17 @@ border-radius: 100px;
 }
 
 #poultry-overview{
-<<<<<<< HEAD
 	margin-left: 54px;
 	margin-right: 60px;
-	margin-top: 30px
-=======
-	  margin-left: 54px;
-  margin-right: 60px;
-    margin-top: 30px
-;
+	margin-top: 30px;
 	  height: 320px;
->>>>>>> db73ab702cfbb76d653680a178d731584e4d58a3
+
 }
 
 .overview-text{
 	font-size: medium;
 	font-family: 'Open Sans';
-	padding: 25px;
+	border: 25px solid transparent;
 }
 
 #click-the-label{
@@ -168,7 +151,9 @@ border-radius: 100px;
 }
 
 .label-button:hover{
-	border-color: white;
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, .75);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, .75);
+	box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, .75);
 	cursor: hand;
 	cursor: pointer;
 }
@@ -284,12 +269,12 @@ height: 85px;
 
 #poultry-label-text-box{
 	max-width: 367px;
-	margin-left: 620px;
+	/* margin-left: 620px; */
 	/* display: inline-block; */
 	/* margin-top: -49px; */
 	position: absolute;
 	margin-left: 620px;
-	margin-top: 570px;
+	margin-top: 486px;
 	height: 303px;
 }
 
@@ -297,7 +282,7 @@ height: 85px;
 	  
 	border: 20px solid transparent;
 	height: 100%;
-	font-size: 18px;
+	font-size: medium;
   color: #000000;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
@@ -404,5 +389,10 @@ td{
 .submit-button {
 	padding-bottom: 10px;
 	text-align: center;
+}
+
+
+h1{
+	margin-top: 0px;
 }
 
