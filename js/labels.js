@@ -12,7 +12,7 @@ $(document).ready(function(){
 		switch($(this).attr('id')) {
 			//red label
 			case 'USDA-organic':
-				$('.label-click-info').text("What it means: This term means that a product has been produced according to the standards in the Organics Foods Production Act (OFPA).93 Generally, a producer will not be able to use this term unless they or their supplier are certified as organic by the USDA under the National Organics Program.94 Basically, organic production limits the use of artificial chemicals, pesticides, hormones, antibiotics, and other inputs, as well as genetic engineering. For more information about the specific organic standards for meat, please see our additional resources page.");
+				$('.label-click-info').html("<h1>What it means:</h1> <p>This term means that a product has been produced according to the standards in the Organics Foods Production Act (OFPA).93 Generally, a producer will not be able to use this term unless they or their supplier are certified as organic by the USDA under the National Organics Program.94 Basically, organic production limits the use of artificial chemicals, pesticides, hormones, antibiotics, and other inputs, as well as genetic engineering. For more information about the specific organic standards for meat, please see our additional resources page.</p>");
 				break;
 			// yellow label
 			case 'all-natural':
