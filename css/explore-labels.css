@@ -4,7 +4,7 @@
 
 #explore-label-nav{
 	position: relative;
-	height: 250px;
+	height: 220px;
 	width: 100%;
 	background-color: #EDE8E0;
 }
@@ -15,7 +15,7 @@
 	left: 0;
 	right: 0;
 	margin: auto;
-	margin-top: 10px;
+	margin-top: 15px;
 
 color: #000000;
 font-size: 24px;
@@ -36,6 +36,16 @@ font-weight: 300;
 .label-nav-button{
 	height: 90px;
 	width: 90px;
+
+	box-shadow: -4px 7px 1px rgba(0, 0, 0, 0.5);
+	border-style: none;
+	border-color: transparent;
+	background-color: #468966;
+	border-radius: 100px;
+	
+	float: left;
+	margin-top: -30px;
+	margin-right: 20px;
 	
 border-style: none;
 border-color: transparent;
@@ -52,6 +62,7 @@ border-radius: 100px;
 	/*box-shadow: 7px #44B8E9;*/
 	/*outline: solid 7px #44B8E9;*/
 	box-shadow: 0 0 0 7pt #44B8E9;
+
 }
 
 .pic-and-link{
@@ -115,15 +126,23 @@ border-radius: 100px;
 }
 
 #poultry-overview{
+<<<<<<< HEAD
+	margin-left: 54px;
+	margin-right: 60px;
+	margin-top: 30px
+=======
 	  margin-left: 54px;
   margin-right: 60px;
     margin-top: 30px
 ;
 	  height: 320px;
+>>>>>>> db73ab702cfbb76d653680a178d731584e4d58a3
 }
 
 .overview-text{
-	padding: 20px;
+	font-size: medium;
+	font-family: 'Open Sans';
+	padding: 25px;
 }
 
 #click-the-label{
@@ -373,10 +392,10 @@ td{
 
 .quiz-text{
 	padding: 20px;
-	column-count: 2;
+/*	column-count: 2;
 	column-gap: 30px;
 	-webkit-column-count: 2;
 	-webkit-column-gap: 30px;
 	-moz-column-count: 2;
-	-moz-column-gap: 30px;
+	-moz-column-gap: 30px;*/
 }
