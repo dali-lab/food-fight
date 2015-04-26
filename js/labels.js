@@ -1,6 +1,6 @@
 //click events for interactive food label pictures 
 $(document).ready(function(){
-	console.log("yolololo");
+	
 	$('.label-button').click(function(){
 		console.log("button clicked");
 
@@ -60,6 +60,21 @@ $(document).ready(function(){
 				break;
 			case 'vegetarian-fed':
 				$('.label-click-info').html("<h2>Vegetarian-Fed</h2> <p>What it means: This term is not defined by the USDA. A producer may use this term on a label if the poultry feed does not include animal byproducts. No independent third party verifies this claim and the USDA does not require any verification before its inclusion on a label.</p>");
+				break;
+			case 'meat-grass-fed':
+				$('.label-click-info').html("<h2>Grass Fed</h2> <p>What it means: If a USDA-inspected producer wants to use this term, the agency must first verify the claim. The USDA will allow the use of the term if the producer can show that the animals received a majority of their nutrients from grass throughout their life. This claim does not ensure that the animal was pastured, as it can be considered grass fed while confined but receiving grass or forage for feed.</p>");
+				break;
+			case 'meat-organic':
+				$('.label-click-info').html("<h2>Organic</h2> <p>What it means: This term means that a product has been produced according to the standards in the Organics Foods Production Act (OFPA). Generally, a producer will not be able to use this term unless they or their supplier are certified as organic by the USDA under the National Organics Program. Basically, organic production limits the use of artificial chemicals, pesticides, hormones, antibiotics, and other inputs, as well as genetic engineering. For more information about the specific organic standards for meat, please see our additional resources page.</p>");
+				break;
+			case 'meat-free-roaming':
+				$('.label-click-info').html("<h2>Free Roaming</h2> <p>What it is: This term has only been defined by the USDA for poultry products. When used by a producer for another type of meat, the term usually means something similar to the definition used for poultry, but does not need to conform to that standard.</p>");
+				break;
+			case 'meat-hormone-free':
+				$('.label-click-info').html("<h2>Hormone Free</h2> <p>What this means: Unlike poultry and pork, this claim can be used on beef. It may be approved by the USDA if “sufficient documentation” is provided to the agency showing no hormones were used in the raising of the animal.</p>");
+				break;
+			case 'meat-pasture-raised':
+				$('.label-click-info').html("<h2>Pasture Raised</h2> <p>What it means: This claim is not defined by the USDA. The term suggests that the animal was raised outside or on pasture, but because there is no legal definition of this term, it can mean what the producer suggests it does.</p>");
 				break;
 	};
 });
