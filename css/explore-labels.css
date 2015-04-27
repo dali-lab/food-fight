@@ -42,7 +42,7 @@ font-weight: 300;
 	border-color: transparent;
 	background-color: #468966;
 	border-radius: 100px;
-	
+
 	float: left;
 	margin-top: -30px;
 	margin-right: 20px;
@@ -118,12 +118,12 @@ font-weight: 300;
 }
 
 .overview{
-	
+
 	display: inline-block;
 	width: 348px;
-  
+
 	border-color: #000000;
-    
+
 	/* border-radius: 20px; */
 	margin-top: 30px;
 }
@@ -188,67 +188,72 @@ font-weight: 300;
 
 #USDA-organic{
 margin-left: 144px;
-  
+
 margin-top: 43px;
-	  
+
 width: 85px;
-  
+
 height: 85px;
 
 }
 
-/** egg labels */ 
+1:35
+/* egg labels */
 #all-natural{
-    margin-left: 232px;
+   margin-left: 202px;
 
-    margin-top: 50px;
-    height: 30px;
-    width: 150px;
+   margin-top: 159px;
+   height: 26px;
+   width: 270px;
 }
 #no-antibiotics{
-  margin-left: 231px;   
-  margin-top: 84px;   height: 30px;   
-  width: 200px;
+ margin-left: 568px;
+ margin-top: 133px;
+ height: 23px;
+ width: 173px;
 }
 #free-roaming{
-    margin-left: 210px;   
-    margin-top: 158px;   
-    height: 25px;   
-    width: 160px;
+   margin-left: 230px;
+   margin-top: 23px;
+   height: 25px;
+   width: 210px;
 
 }
 #no-hormones{
-    margin-left: 185px;   
-    margin-top: 184px;   
-    height: 25px;   
-    width: 210px;
+   margin-left: 283px;
+   margin-top: 182px;
+   height: 24px;
+   width: 160px;
 }
 #grade-a{
-    margin-left: 583px;   
-    margin-top: 174px;   
-    width: 115px;   
-    height: 39px;
+   margin-left: 138px;
+   margin-top: 132px;
+   width: 215px;
+   height: 28px;
 }
 #omega-3{
-    margin-left: 579px;   margin-top: 64px;   width: 152px;   height: 49px;
+   margin-left: 658px;
+   margin-top: 165px;
+   width: 98px;
+   height: 31px;
 }
 #saturated-fat{
-    margin-left: 766px;   
-    margin-top: 34px;   
-    width: 102px;   
-    height: 59px;
+   margin-left: 558px;
+   margin-top: 111px;
+   width: 200px;
+   height: 24px;
 }
 #vitamin-e{
-    margin-left: 765px;   
-    margin-top: 121px;   
-    width: 112px;   height: 59px;
+   margin-left: 556px;
+   margin-top: 166px;
+   width: 102px;
+   height: 31px;
 }
-
 
 /* poultry labels */
 #cage-free{
-    height: 26px;   
-    width: 80px;   
+    height: 26px;
+    width: 80px;
     margin-left: 311px;   margin-top: 23px;
 }
 #poultry-all-natural{
@@ -258,9 +263,9 @@ height: 85px;
     margin-top: 146px;
 }
 #poultry-no-antibiotics{
-    height: 26px;   
-    width: 136px;   
-    margin-left: 439px;   
+    height: 26px;
+    width: 136px;
+    margin-left: 439px;
     margin-top: 308px;
 }
 #free-range{
@@ -270,53 +275,53 @@ height: 85px;
     margin-top: 23px;
 }
 #poultry-no-hormones{
-    height: 26px;   width: 136px;   
-    margin-left: 441px;   
+    height: 26px;   width: 136px;
+    margin-left: 441px;
     margin-top: 336px;
 }
 #vegetarian-fed{
-    height: 26px;   
-    width: 117px;   
+    height: 26px;
+    width: 117px;
     margin-left: 402px;   margin-top: 23px;
 }
 
 #meat-grass-fed {
     height: 26px;
-    width: 117px;   
-    margin-left: 180px;   margin-top: 257px;	
+    width: 117px;
+    margin-left: 180px;   margin-top: 257px;
 }
 
 #meat-organic {
     height: 65px;
-    width: 65px;   
-    margin-left: 336px;   margin-top: 182px;	
+    width: 65px;
+    margin-left: 336px;   margin-top: 182px;
 }
 
 #meat-free-roaming {
     height: 18px;
-    width: 117px;   
-    margin-left: 340px;   margin-top: 127px;	
+    width: 117px;
+    margin-left: 340px;   margin-top: 127px;
 }
 
 #meat-hormone-free {
     height: 18px;
-    width: 117px;   
-    margin-left: 340px;   margin-top: 144px;	
-	
+    width: 117px;
+    margin-left: 340px;   margin-top: 144px;
+
 }
 
 #meat-pasture-raised {
     height: 55px;
-    width: 117px;   
-    margin-left: 345px;   margin-top: 45px;	
-	
+    width: 117px;
+    margin-left: 345px;   margin-top: 45px;
+
 }
 
 /* Pork Labels */
 #pork-naturally-raised{
-    height: 70px;   
-    width: 214px;   
-    margin-left: 51px;   
+    height: 70px;
+    width: 214px;
+    margin-left: 51px;
     margin-top: 55px;
 }
 #pork-locally-grown{
@@ -326,9 +331,9 @@ height: 85px;
     margin-top: 163px;
 }
 #pork-minimally-processed{
-    height: 30px;   
-    width: 176px;   
-    margin-left: 240px;   
+    height: 30px;
+    width: 176px;
+    margin-left: 240px;
     margin-top: 163px;
 }
 #pork-uncured{
@@ -342,12 +347,12 @@ height: 85px;
 .label-text-box{
 	 	position: relative;
   top: 350px;
-  
+
 	margin: auto;
 	width: 719px;
-  
+
 	border-color: #000000;
-    
+
 	border-radius: 20px;
 }
 
@@ -363,7 +368,7 @@ height: 85px;
 }
 
 .label-click-info{
-	  
+
 	border: 20px solid transparent;
 	height: 100%;
 	font-size: medium;
@@ -371,7 +376,7 @@ height: 85px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
 
-  
+
 	/* -webkit-column-count: 2; */ /* Chrome, Safari, Opera */
     /*-moz-column-count: 2;*/ /* Firefox */
     /*column-count: 2;*/
