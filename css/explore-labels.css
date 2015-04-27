@@ -82,6 +82,12 @@ font-weight: 300;
 	border-radius: 10px;
 }
 
+.meat-text{
+	background-color: #ffcc99;
+	border-radius: 10px;
+}
+
+
 .main-title{
 	width: 200px;
 	margin: auto;
@@ -130,6 +136,14 @@ font-weight: 300;
 
 }
 
+#meat-overview{
+	margin-left: 54px;
+	margin-right: 60px;
+	margin-top: 30px;
+	  height: 320px;
+
+}
+
 .overview-text{
 	font-size: medium;
 	font-family: 'Open Sans';
@@ -147,6 +161,12 @@ font-weight: 300;
 }
 
 #poultry-pic-and-buttons{
+	width: 598px;
+	/* display: inline-block; */
+	/* float: left; */
+}
+
+#meat-pic-and-buttons{
 	width: 598px;
 	/* display: inline-block; */
 	/* float: left; */
@@ -260,6 +280,38 @@ height: 85px;
     margin-left: 402px;   margin-top: 23px;
 }
 
+#meat-grass-fed {
+    height: 26px;
+    width: 117px;   
+    margin-left: 180px;   margin-top: 257px;	
+}
+
+#meat-organic {
+    height: 65px;
+    width: 65px;   
+    margin-left: 336px;   margin-top: 182px;	
+}
+
+#meat-free-roaming {
+    height: 18px;
+    width: 117px;   
+    margin-left: 340px;   margin-top: 127px;	
+}
+
+#meat-hormone-free {
+    height: 18px;
+    width: 117px;   
+    margin-left: 340px;   margin-top: 144px;	
+	
+}
+
+#meat-pasture-raised {
+    height: 55px;
+    width: 117px;   
+    margin-left: 345px;   margin-top: 45px;	
+	
+}
+
 /* Pork Labels */
 #pork-naturally-raised{
     height: 70px;   
@@ -345,6 +397,9 @@ height: 85px;
 	margin-top: 490px;
 }
 
+#meat-terms{
+	margin-top: 500px;
+}
 
 
 .terms-title{
