@@ -24,7 +24,7 @@ $(window).scroll(sideNavPosition);
 function sideNavPosition(){
     //determine height of all content above the side nav to use for offset
     var sOffset = $(".above-side-nav").offset().top;
-    var barheight = $(".above-side-nav").height() + 20; //margin of 20 from top 
+    var barheight = $(".above-side-nav").height(); 
     var y = $(this).scrollTop();
     
     //if the at the top of the page, keep sidenav just under the top bar of content
@@ -36,7 +36,7 @@ function sideNavPosition(){
     //if the top bar is no longer visible, keep the sidenav at the top of the page, scroll it with the user
     } else {
         $("#side-nav").css({
-            'margin-top': ((sOffset+barheight) - y)+ 'px', 
+            'margin-top': ((sOffset+barheight) - y)+20+ 'px', //margin of 20 from top 
         });
     }
 
