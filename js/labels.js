@@ -2,6 +2,21 @@
 $(document).ready(function(){
 	$('.label-button').click(function(){
 		switch($(this).attr('id')) {
+
+      // Labels related to the pork page
+      case 'pork-naturally-raised':
+        $('.label-click-info').html("<h2>Naturally Raised</h2> <p>What it means: The USDA has defined this claim to mean that the livestock used for these products were raised entirely without growth promotants or hormones, antibiotics and have never been fed antibiotics</p>");
+        break;
+      case 'pork-locally-grown':
+        $('.label-click-info').html("<h2>Locally Grown</h2> <p>What it means: This term is not defined by the USDA. A producer may use this term on a label if the poultry feed does not include animal byproducts. No independent third party verifies this claim and the USDA does not require any verification before its inclusion on a label.</p>");
+        break;
+      case 'pork-minimally-processed':
+        $('.label-click-info').html("<h2>Minimally Processed</h2> <p>What it means: The USDA defines this claim to mean that the product was processed such that it was not fundamentally changed during processing.</p>");
+        break;
+      case 'pork-uncured':
+        $('.label-click-info').html("<h2>Uncured</h2> <p>What it means: This claim means the product has been processed without the use of nitrates or nitrites.</p>");
+        break;
+
 			//red label
 			case 'USDA-organic':
 				$('.label-click-info').html("<h2>Organic</h2> <p>What it means: This term means that a product has been produced according to the standards in the Organics Foods Production Act (OFPA).93 Generally, a producer will not be able to use this term unless they or their supplier are certified as organic by the USDA under the National Organics Program.94 Basically, organic production limits the use of artificial chemicals, pesticides, hormones, antibiotics, and other inputs, as well as genetic engineering. For more information about the specific organic standards for meat, please see our additional resources page.</p>");
