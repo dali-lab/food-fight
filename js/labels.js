@@ -1,14 +1,6 @@
-//click events for interactive food label pictures 
+//click events for interactive food label pictures
 $(document).ready(function(){
-	
 	$('.label-button').click(function(){
-		console.log("button clicked");
-
-		//testing
-		// $('.label-click-info').text($(this).attr('id') + "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae interdum metus, eget pharetra leo. Donec eros tortor, eleifend sed molestie a, ultrices vel nibh. Vestibulum blandit, nunc eu adipiscing mattis, dui ante pulvinar diam,quis tristique nibh elit id tortor. Nullam metus dolor, aliquam sed .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae interdum metus, eget pharetra leo. Donec eros tortor, eleifend sed molestie a, ultrices vel nibh. Vestibulum blandit, nunc eu adipiscing mattis, dui ante pulvinar diam,quis tristique nibh elit id tortor. Nullam metus dolor, aliquam sed .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae interdum metus, eget pharetra leo. Donec eros tortor, eleifend sed molestie a, ultrices vel nibh. Vestibulum blandit, nunc eu adipiscing mattis, dui ante pulvinar diam,quis tristique nibh elit id tortor. Nullam metus dolor, aliquam sed .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae interdum metus, eget pharetra leo. Donec eros tortor, eleifend sed molestie a, ultrices vel nibh. Vestibulum blandit, nunc eu adipiscing mattis, dui ante pulvinar diam,quis tristique nibh elit id tortor. Nullam metus dolor, aliquam sed .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae interdum metus, eget pharetra leo. Donec eros tortor, eleifend sed molestie a, ultrices vel nibh. Vestibulum blandit, nunc eu adipiscing mattis, dui ante pulvinar diam,quis tristique nibh elit id tortor. Nullam metus dolor, aliquam sed .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae interdum metus, eget pharetra leo. Donec eros tortor, eleifend sed molestie a, ultrices vel nibh. Vestibulum blandit, nunc eu adipiscing mattis, dui ante pulvinar diam,quis tristique nibh elit id tortor. Nullam metus dolor, aliquam sed .");
-		//testing
-
-		//Armin: uncomment this switch statement
 		switch($(this).attr('id')) {
 			//red label
 			case 'USDA-organic':

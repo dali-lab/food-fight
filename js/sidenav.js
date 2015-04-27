@@ -24,9 +24,9 @@ $(window).scroll(sideNavPosition);
 function sideNavPosition(){
     //determine height of all content above the side nav to use for offset
     var sOffset = $(".above-side-nav").offset().top;
-    var barheight = $(".above-side-nav").height(); 
+    var barheight = $(".above-side-nav").height();
     var y = $(this).scrollTop();
-    
+
     //if the at the top of the page, keep sidenav just under the top bar of content
     if (y > sOffset + barheight) {
         // console.log("moving");
@@ -36,14 +36,14 @@ function sideNavPosition(){
     //if the top bar is no longer visible, keep the sidenav at the top of the page, scroll it with the user
     } else {
         $("#side-nav").css({
-            'margin-top': ((sOffset+barheight) - y)+20+ 'px', //margin of 20 from top 
+            'margin-top': ((sOffset+barheight) - y)+20+ 'px', //margin of 20 from top
         });
     }
 
     //have the modules of the sidenav activate and display text when user scrolls to the div that module references
     $('.link').each(function (event) {
         if (y >= $($(this).attr('href')).offset().top - 120) {
-           
+
                 // $('.link').not(this).parent().parent().children(".nav-item-text").css("visibility", "hidden");
 
                 // $(this).parent().parent().children(".nav-item-text").css("visibility", "visible");
