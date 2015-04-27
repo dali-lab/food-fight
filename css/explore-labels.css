@@ -62,8 +62,8 @@ font-weight: 300;
 
 .button-link{
 	position: absolute;
-	width: 90px;
-	height: 90px;
+	width: 60px;
+	height: 87px;
 	z-index: 1;
 }
 
@@ -73,12 +73,12 @@ font-weight: 300;
 }
 
 .poultry-text{
-	background-color: #fce4cc;
+	background-color: #F0D5AA;
 	border-radius: 10px;
 }
 
-.meat-text{
-	background-color: #ffcc99;
+.pork-text{
+	background-color: #FBC0B7;
 	border-radius: 10px;
 }
 
@@ -107,6 +107,9 @@ font-weight: 300;
 
 #egg-pic{}
 #poultry-pic{}
+.pork-pic{
+	margin-left: 450px;
+}
 
 .overview{
 	
@@ -120,14 +123,6 @@ font-weight: 300;
 }
 
 #poultry-overview{
-	margin-left: 54px;
-	margin-right: 60px;
-	margin-top: 30px;
-	  height: 320px;
-
-}
-
-#meat-overview{
 	margin-left: 54px;
 	margin-right: 60px;
 	margin-top: 30px;
@@ -152,12 +147,6 @@ font-weight: 300;
 }
 
 #poultry-pic-and-buttons{
-	width: 598px;
-	/* display: inline-block; */
-	/* float: left; */
-}
-
-#meat-pic-and-buttons{
 	width: 598px;
 	/* display: inline-block; */
 	/* float: left; */
@@ -271,37 +260,30 @@ height: 85px;
     margin-left: 402px;   margin-top: 23px;
 }
 
-
-#meat-grass-fed {
-    height: 26px;
-    width: 117px;   
-    margin-left: 180px;   margin-top: 257px;	
+/* Pork Labels */
+#pork-naturally-raised{
+    height: 70px;   
+    width: 214px;   
+    margin-left: 51px;   
+    margin-top: 55px;
 }
-
-#meat-organic {
-    height: 65px;
-    width: 65px;   
-    margin-left: 336px;   margin-top: 182px;	
+#pork-locally-grown{
+    width: 144px;
+    height: 30px;
+    margin-left: 99px;
+    margin-top: 163px;
 }
-
-#meat-free-roaming {
-    height: 18px;
-    width: 117px;   
-    margin-left: 340px;   margin-top: 127px;	
+#pork-minimally-processed{
+    height: 30px;   
+    width: 176px;   
+    margin-left: 240px;   
+    margin-top: 163px;
 }
-
-#meat-hormone-free {
-    height: 18px;
-    width: 117px;   
-    margin-left: 340px;   margin-top: 144px;	
-	
-}
-
-#meat-pasture-raised {
-    height: 55px;
-    width: 117px;   
-    margin-left: 345px;   margin-top: 45px;	
-	
+#pork-uncured{
+    height: 30px;
+    width: 89px;
+    margin-left: 416px;
+    margin-top: 164px;
 }
 
 
@@ -324,8 +306,8 @@ height: 85px;
 	/* margin-top: -49px; */
 	position: absolute;
 	margin-left: 620px;
-	margin-top: 486px;
-	height: 303px;
+	margin-top: 474px;
+	height: 333px;
 }
 
 .label-click-info{
@@ -342,7 +324,7 @@ height: 85px;
     /*-moz-column-count: 2;*/ /* Firefox */
     /*column-count: 2;*/
 
-	overflow-y: scroll;
+	overflow-y: hidden;
 }
 
 .terms-to-look-for{
@@ -356,9 +338,6 @@ height: 85px;
 	margin-top: 380px;
 }
 #poultry-terms{
-	margin-top: 500px;
-}
-#meat-terms{
 	margin-top: 500px;
 }
 
