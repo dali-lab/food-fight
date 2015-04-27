@@ -417,13 +417,13 @@ height: 85px;
 
 .term-circle{
 	display: inline-block;
-	  box-shadow: -4px 7px 1px rgba(0,0,0,0.5);
+	  box-shadow: -2px 3px 1px rgba(0,0,0,0.5);
   border-style: none;
   border-color: transparent;
   background-color: #468966;
   border-radius: 100px;
-  width: 100px;
-  height: 99px;
+  width: 25px;
+  height: 25px;
 }
 
 .term-text{
