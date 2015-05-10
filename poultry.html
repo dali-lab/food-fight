@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food Fight</title>
+	<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/explore-labels.css">
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/sidenav.css">
+
+	<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+	<script type="text/javascript" src="js/sidenav.js"></script>
+  <script type="text/javascript" src="js/labels.js"></script>
+  <script type="text/javascript" src="js/smooth_scroll.js"></script>
+  <script src="dist/js/bootstrap.min.js"></script>
+
+  <!--
+  SweetAlert written by Tristan Edwards with free-use license
+  http://tristanedwards.me/sweetalert
+-->
+<script src="sweet-alert-lib/sweet-alert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="sweet-alert-lib/sweet-alert.css">
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.3.4.min.js"></script>
+
+  <script type="text/javascript" src="js/survey.js"></script>
+  <script type="text/javascript" src="js/populate_surv.js"></script>
+  <script>
+    $(document).ready(function() {
+      populate_survey('form', "eggs");  
+    })
+  </script>
+
+</head>
+<body>
+
+	<!--side nav-->
+	<div id="side-nav">
+    <div id="side-nav-menu">
+      <div class="side-nav-item">
+        <div class="side-nav-circle">
+          <a class="link" href="#all-about-eggs"></a>
+        </div>
+        <div class="nav-item-text" id="item-text1">All About Eggs</div>
+        <!--<p>hello</p>-->
+        <div class="side-nav-connector"></div>
+      </div>
+      <div class="side-nav-item">
+        <div class="side-nav-circle">
+          <a class="link" href="#click-the-label"></a>
+        </div>
+        <div class="nav-item-text" id="item-text2">Click the Label</div>
+        <div class="side-nav-connector"></div>
+      </div>
+      <div class="side-nav-item">
+        <div class="side-nav-circle">
+          <a class="link" href="#poultry-terms"></a>
+        </div>
+        <div class="nav-item-text" id="item-text3">Terms to Look for</div>
+        <div class="side-nav-connector"></div>
+      </div>
+      <div class="side-nav-item">
+        <div class="side-nav-circle">
+          <a class="link" href="#quiz"></a>
+        </div>
+        <div class="nav-item-text" id="item-text4">Quiz</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="above-side-nav">
+
+        <!--nav bar-->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div>
+          <ul class="nav navbar-nav">
+            <li><a href="muse/index.html">Home</a></li>
+            <li><a href="muse/basics.html">Basics</a></li> 
+            <li class="active"><a href="explore-labels.html">Explore Labels</a></li> 
+            <li><a href="muse/glossary.html">Glossary</a></li> 
+            <li><a href="qanda.html">Q & A</a></li> 
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+        <!--explore labels button box-->
+  <div id="explore-label-nav">
+     <div id="explore-sections-text">Explore the sections individually or read through each of them to test your knowledge!</div>
+     <div id="label-button-row">
+
+      <div class="label-nav-button">
+       <div class="pic-and-link">
+        <a class="button-link" href="organic.html"></a>
+        <img style="margin-left: -1px; margin-top: -9px" src="images/apple.png" alt="" width="72" height="72">
+      </div>
+    </div>
+
+    <div class="label-nav-button">
+     <div class="pic-and-link">
+      <a class="button-link" href="processed.html"></a>
+      <img style="margin-left: 8px; margin-top: -4px" src="images/chips.png" alt width="60" height="65">
+    </div>
+  </div>
+
+  <div class="label-nav-button">
+   <div class="pic-and-link">
+    <a class="button-link" href="explore-labels.html"></a>
+    <img src="images/eggs.png" alt="" width="77" height="58">
+  </div>
+</div>
+
+<div class="label-nav-button">
+ <div class="pic-and-link">
+  <a class="button-link" href="poultry.html"></a>
+  <img style="margin-left:-3px; margin-top:-7px;" src="images/poultry.png" alt="" width="84" height="76">
+</div>
+</div>
+
+<div class="label-nav-button">
+ <div class="pic-and-link">
+  <a class="button-link" href="beef.html"></a>
+  <img style="margin-left: -5px" src="images/cow.png" alt="" width="89" height="65">
+</div>
+</div>
+
+<div class="label-nav-button">
+ <div class="pic-and-link">
+  <a class="button-link" href="pork.html"></a>
+  <img style="margin-left: -2px" src="images/pigs.png" alt="" width="85" height="60">
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<!--Eggs page-->
+
+<div id="all-about-eggs">
+  <div class="main-title">Poultry</div>
+  <div class="pic-and-overview">
+    <div class="overview poultry-text" id="poultry-overview">
+      <div class="overview-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae interdum metus, eget pharetra leo. Donec eros tortor, eleifend sed molestie a, ultrices vel nibh. Vestibulum blandit, nunc eu adipiscing mattis, dui ante pulvinar diam,
+        quis tristique nibh elit id tortor. Nullam metus dolor, aliquam sed odio quis, scelerisque interdum felis. Ut in fermentum tortor. interdum felis. Ut in fermentum tortor.
+      </div>
+    </div>
+    <div class="pic">
+      <img style="margin-top: -200px; -moz-transform: scaleX(-1); -webkit-transform: scaleX(-1); -o-transform: scaleX(-1); transform: scaleX(-1); filter: FlipH; -ms-filter: 'FlipH';" src="images/chicken.png" alt width="323" height="357"/>
+    </div>
+  </div>
+</div>
+
+<div id="click-the-label">
+  <div class="pic-and-buttons" id="poultry-pic-and-buttons">
+    <img style="position: absolute; margin-left: 10px" src="images/chicken%20breast.jpg" alt width="598" height="405">
+    <div class="label-button" id="cage-free"></div>
+    <div class="label-button" id="poultry-all-natural"></div>
+    <div class="label-button" id="poultry-no-antibiotics"></div>
+    <div class="label-button" id="free-range"></div>
+    <div class="label-button" id="poultry-no-hormones"></div>
+    <div class="label-button" id="vegetarian-fed"></div>
+  </div>
+  <div class="label-text-box poultry-text" id="poultry-label-text-box">
+    <div class="label-click-info"><h1>Click on the Labels to Learn More!</h1></div>
+  </div>
+
+</div>
+
+
+<div class="terms-to-look-for" id="poultry-terms">
+  <div class="terms-title">Terms to look for</div>
+  <table>
+    <tr>
+      <td>
+        <div class="term-item">
+          <div class="term-circle"></div>
+          <div class="term-text">
+            quis tristique nibh elit id tortor. Nullam metus dolor, aliquam sed odio quis, scelerisque interdum felis. Ut in fermentum tortor. interdum felis. Ut in fermentum tortor.
+          </div>
+        </div>
+      </td>
+      <td>
+        <div class="term-item">
+          <div class="term-circle"></div>
+          <div class="term-text">
+            quis tristique nibh elit id tortor. Nullam metus dolor, aliquam sed odio quis, scelerisque interdum felis. Ut in fermentum tortor. interdum felis. Ut in fermentum tortor.
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="term-item">
+          <div class="term-circle"></div>
+          <div class="term-text">
+            quis tristique nibh elit id tortor. Nullam metus dolor, aliquam sed odio quis, scelerisque interdum felis. Ut in fermentum tortor. interdum felis. Ut in fermentum tortor.
+          </div>
+        </div>
+      </td>
+      <td>
+        <div class="term-item">
+          <div class="term-circle"></div>
+          <div class="term-text">
+            quis tristique nibh elit id tortor. Nullam metus dolor, aliquam sed odio quis, scelerisque interdum felis. Ut in fermentum tortor. interdum felis. Ut in fermentum tortor.
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="term-item">
+          <div class="term-circle"></div>
+          <div class="term-text">
+            quis tristique nibh elit id tortor. Nullam metus dolor, aliquam sed odio quis, scelerisque interdum felis. Ut in fermentum tortor. interdum felis. Ut in fermentum tortor.
+          </div>
+        </div>
+      </td>
+      <td>
+        <div class="term-item">
+          <div class="term-circle"></div>
+          <div class="term-text">
+            quis tristique nibh elit id tortor. Nullam metus dolor, aliquam sed odio quis, scelerisque interdum felis. Ut in fermentum tortor. interdum felis. Ut in fermentum tortor.
+          </div>
+        </div>
+      </td>
+    </tr>
+
+  </table>
+</div>
+<div id="quiz">
+  <div class="quiz-title">Are you an Eggspert?</div>
+  <div class="quiz-box">
+    <div class="quiz-text">
+    <form id='form'></form>
+      
+        <div class="submit-button">
+		<button onclick="submit('form', 'poultry.html')">Submit</button>
+	</div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
