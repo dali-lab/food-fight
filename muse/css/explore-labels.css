@@ -1,7 +1,7 @@
 .version.explore_labels /* version checker */
 {
-	color: #000015;
-	background-color: #6545D9;
+	color: #0000FC;
+	background-color: #836519;
 }
 
 .html
@@ -217,10 +217,10 @@
 	min-height: 25px;
 	background-color: transparent;
 	border-radius: 20px;
+	line-height: 29px;
 	color: #000000;
 	text-align: center;
 	font-size: 24px;
-	line-height: 29px;
 	font-family: open-sans, sans-serif;
 	font-weight: 300;
 	left: 253px;
@@ -1505,9 +1505,9 @@
 	width: 299px;
 	min-height: 39px;
 	background-color: transparent;
+	line-height: 24px;
 	text-align: center;
 	font-size: 20px;
-	line-height: 24px;
 	font-family: open-sans, sans-serif;
 	font-weight: 300;
 	position: relative;

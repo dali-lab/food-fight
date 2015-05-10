@@ -1,7 +1,7 @@
 .version.meat /* version checker */
 {
-	color: #00000D;
-	background-color: #05A0DB;
+	color: #000012;
+	background-color: #E1AE78;
 }
 
 .html
@@ -217,10 +217,10 @@
 	min-height: 25px;
 	background-color: transparent;
 	border-radius: 20px;
+	line-height: 29px;
 	color: #000000;
 	text-align: center;
 	font-size: 24px;
-	line-height: 29px;
 	font-family: open-sans, sans-serif;
 	font-weight: 300;
 	left: 253px;
@@ -473,9 +473,9 @@
 	z-index: 43;
 	min-height: 46px;
 	background-color: transparent;
+	line-height: 60px;
 	text-align: center;
 	font-size: 50px;
-	line-height: 60px;
 	font-family: quicksand, sans-serif;
 	font-weight: 300;
 }
@@ -1433,9 +1433,9 @@
 	width: 299px;
 	min-height: 39px;
 	background-color: transparent;
+	line-height: 24px;
 	text-align: center;
 	font-size: 20px;
-	line-height: 24px;
 	font-family: open-sans, sans-serif;
 	font-weight: 300;
 	position: relative;

@@ -1,22 +1,22 @@
-<manifest alg="2" build="1176" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1428983780668">
+<manifest alg="2" build="1176" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1431296418496">
   <folder name="css">
     <file name="site_global.css" crc="4147648513"/>
-    <file name="master_b-master.css" crc="308101889" ref="organic-food-label:explore-labels:basics:poultry:meat:glossary:pork:processed-food-label"/>
-    <file name="master_a-master.css" crc="77492255" ref="index"/>
-    <file name="master_submitfooter.css" crc="3877835231" ref="q---a"/>
-    <file name="organic-food-label.css" crc="350286475" ref="organic-food-label"/>
-    <file name="explore-labels.css" crc="358958553" ref="explore-labels"/>
-    <file name="basics.css" crc="4004046842" ref="basics"/>
-    <file name="iefonts_basics.css" crc="369863159" ref="basics"/>
-    <file name="poultry.css" crc="215029539" ref="poultry"/>
-    <file name="meat.css" crc="218472667" ref="meat"/>
-    <file name="glossary.css" crc="3929027400" ref="glossary"/>
+    <file name="master_submitfooter.css" crc="317440903" ref="q---a"/>
+    <file name="master_a-master.css" crc="326821094" ref="index"/>
+    <file name="master_b-master.css" crc="165432318" ref="pork:poultry:basics:processed-food-label:meat:glossary:organic-food-label:explore-labels"/>
+    <file name="pork.css" crc="3768499471" ref="pork"/>
+    <file name="poultry.css" crc="4123294669" ref="poultry"/>
+    <file name="basics.css" crc="173394755" ref="basics"/>
+    <file name="iefonts_basics.css" crc="359079934" ref="basics"/>
+    <file name="q---a.css" crc="4259948574" ref="q---a"/>
+    <file name="processed-food-label.css" crc="3871469384" ref="processed-food-label"/>
+    <file name="meat.css" crc="316780152" ref="meat"/>
+    <file name="glossary.css" crc="472169067" ref="glossary"/>
     <file name="iefonts_glossary.css" crc="3962119456" ref="glossary"/>
-    <file name="pork.css" crc="4164496734" ref="pork"/>
-    <file name="processed-food-label.css" crc="68645511" ref="processed-food-label"/>
-    <file name="index.css" crc="4210515156" ref="index"/>
-    <file name="iefonts_index.css" crc="3979485690" ref="index"/>
-    <file name="q---a.css" crc="4262563595" ref="q---a"/>
+    <file name="index.css" crc="15446061" ref="index"/>
+    <file name="iefonts_index.css" crc="3779876329" ref="index"/>
+    <file name="organic-food-label.css" crc="317944884" ref="organic-food-label"/>
+    <file name="explore-labels.css" crc="4236469529" ref="explore-labels"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="221936890" ref="index:basics:glossary:q---a:explore-labels:poultry:processed-food-label:organic-food-label:meat:pork"/>
@@ -39,25 +39,26 @@
     <file name="iconmonstr-shield-19-icon-256.png" crc="4173084992" ref="index"/>
     <file name="iconmonstr-book-19-icon-256.png" crc="400406002" ref="index"/>
     <file name="4colorsealgif.gif" crc="352699048" ref="index"/>
-    <file name="organic.png" crc="4112367467" ref="index"/>
     <file name="icon-glutenfree.png" crc="4077209959" ref="index"/>
     <file name="aga-logo.png" crc="153760241" ref="index"/>
+    <file name="all-natural.png" crc="3893851542" ref="index"/>
     <file name="organic-fruit.jpg" crc="140736888" ref="index"/>
-    <file name="foodfightbadge.png" crc="349357138" ref="index"/>
+    <file name="foodfightbadge.png" crc="3906944608" ref="index"/>
+    <file name="cafs-logo-u3091.png" crc="4105128676" ref="index"/>
+    <file name="dashed separator.png" crc="3903173419" ref="index:q---a"/>
     <file name="pasted image 1928x978.png" crc="223977867" ref="index"/>
     <file name="nutritional.gif" crc="4047250982" ref="basics"/>
-    <file name="eggs.png" crc="4203417283" ref="basics:explore-labels:poultry:processed-food-label:organic-food-label:meat:pork"/>
+    <file name="2000px-usda_logosvg.png" crc="4211322855" ref="basics"/>
+    <file name="ucm218078.png" crc="309692027" ref="basics"/>
     <file name="poultry.png" crc="534424495" ref="basics:explore-labels:poultry:processed-food-label:organic-food-label:meat:pork"/>
     <file name="pigs.png" crc="531587226" ref="basics:explore-labels:poultry:processed-food-label:organic-food-label:meat:pork"/>
     <file name="cow.png" crc="32480109" ref="basics:explore-labels:poultry:processed-food-label:organic-food-label:meat:pork"/>
-    <file name="soda can.png" crc="432273171" ref="basics:explore-labels:poultry:processed-food-label:organic-food-label:meat"/>
-    <file name="corn.png" crc="418778952" ref="basics"/>
     <file name="shrimp.png" crc="527713620" ref="basics"/>
-    <file name="2000px-usda_logosvg.png" crc="4211322855" ref="basics"/>
-    <file name="ucm218078.png" crc="309692027" ref="basics"/>
-    <file name="soda can2.png" crc="3942254480" ref="basics"/>
+    <file name="soda can.png" crc="3942254480" ref="basics"/>
+    <file name="corn.png" crc="418778952" ref="basics"/>
+    <file name="eggs.png" crc="4203417283" ref="basics:explore-labels:poultry:processed-food-label:organic-food-label:meat:pork"/>
+    <file name="soda can2.png" crc="432273171" ref="basics:explore-labels:poultry:processed-food-label:organic-food-label:meat:pork"/>
     <file name="fill 3-u993.png" crc="4027061361" ref="glossary"/>
-    <file name="dashed separator.png" crc="3903173419" ref="q---a"/>
     <file name="u1193-17.png" crc="3904437901" ref="q---a"/>
     <file name="u1193-17-r.png" crc="174039896" ref="q---a"/>
     <file name="u1193-17-m.png" crc="4087376994" ref="q---a"/>
@@ -73,14 +74,14 @@
     <file name="pork.png" crc="4036674634" ref="pork"/>
     <file name="bacon.png" crc="118791441" ref="pork"/>
   </folder>
-  <file name="index.html" crc="3856871819" mt="1428982484988" redirect="true"/>
-  <file name="basics.html" crc="3777138362" mt="1428966247955" redirect="true"/>
+  <file name="index.html" crc="3806458043" mt="1431291596837" redirect="true"/>
+  <file name="basics.html" crc="3907734206" mt="1431296172980" redirect="true"/>
   <file name="glossary.html" crc="150583739" mt="1428633560942" redirect="true"/>
   <file name="q---a.html" crc="69482828" mt="1428633560915" redirect="true"/>
-  <file name="explore-labels.html" crc="4196766778" mt="1428983733611" redirect="true"/>
-  <file name="poultry.html" crc="3898705553" mt="1428967071293" redirect="true"/>
-  <file name="processed-food-label.html" crc="371412731" mt="1428967112939" redirect="true"/>
-  <file name="organic-food-label.html" crc="75685677" mt="1428967092249" redirect="true"/>
-  <file name="meat.html" crc="241746596" mt="1428982624584" redirect="true"/>
-  <file name="pork.html" crc="4130271720" mt="1428965729780" redirect="true"/>
+  <file name="explore-labels.html" crc="343726718" mt="1428983733611" redirect="true"/>
+  <file name="poultry.html" crc="69878168" mt="1428967071293" redirect="true"/>
+  <file name="processed-food-label.html" crc="4184448876" mt="1428967112939" redirect="true"/>
+  <file name="organic-food-label.html" crc="4263404410" mt="1428967092249" redirect="true"/>
+  <file name="meat.html" crc="4075705071" mt="1428982624584" redirect="true"/>
+  <file name="pork.html" crc="4053743957" mt="1430009531483" redirect="true"/>
 </manifest>

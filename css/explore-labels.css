@@ -74,8 +74,9 @@ font-weight: 300;
 }
 
 .button-label{
+	width: 90px;
 	position: absolute;
-	margin-left: 26px;
+	text-align: center;
 }
 
 .egg-text{
@@ -103,6 +104,11 @@ font-weight: 300;
 	border-radius: 10px;
  }
 
+ .organic-text{
+ 	background-color: #ffe1b8;
+ 	border-radius: 10px;
+ }
+
 
 .main-title{
 	width: 200px;
@@ -128,7 +134,10 @@ font-weight: 300;
 	display: inline-block;
 }
 
-#egg-pic{}
+#egg-pic{
+    margin-left: 420px;
+    margin-top: 22px;
+}
 #poultry-pic{}
 .pork-pic{
 	margin-left: 450px;
@@ -159,6 +168,11 @@ font-weight: 300;
 	margin-top: 30px;
 	  height: 320px;
 
+}
+
+#organic-overview{
+    margin-left: 74px;
+	
 }
 
 .overview-text{
@@ -411,6 +425,69 @@ height: 85px;
 	    margin-top: 464px;
 }
 
+#organic-ingredients{
+		    width: 172px;
+    
+		    height: 22px;
+    
+	    
+		    margin-left: 122px;
+    
+	    
+		    margin-top: 79px;
+}
+#non-gmo{
+		    width: 76px;
+    height: 20px;
+    
+	    
+		    margin-left: 320px;
+    
+	    
+		    margin-top: 80px;
+}
+#gluten-free{
+		    width: 91px;
+    
+		    height: 18px;
+    
+	    margin-left: 339px;
+    
+	    
+		    margin-top: 264px;
+}
+#no-trans-fat{
+		    width: 106px;
+    height: 20px;
+    
+	    
+		    margin-left: 332px;
+    
+	    
+		    margin-top: 282px;
+}
+#fresh{
+		    width: 45px;
+    height: 20px;
+    
+	    
+		    margin-left: 186px;
+    
+	    
+		    margin-top: 264px;
+}
+#organic{
+		    width: 141px;
+    
+		    height: 25px;
+    
+	    
+		    margin-left: 149px;
+    
+	    
+		    margin-top: 134px;
+}
+
 
 .label-text-box{
 	 	position: relative;
@@ -446,6 +523,20 @@ height: 85px;
  	height: 333px;
  }
 
+ #organic-label-text-box{
+ 	  max-width: 367px;
+  /* margin-left: 620px; */
+  /* display: inline-block; */
+  /* margin-top: -49px; */
+  position: absolute;
+  
+ 	  margin-left: 568px;
+  
+ 	  margin-top: 525px;
+  
+ 	  height: 383px;
+ }
+
 .label-click-info{
 
 	border: 20px solid transparent;
@@ -460,7 +551,7 @@ height: 85px;
     /*-moz-column-count: 2;*/ /* Firefox */
     /*column-count: 2;*/
 
-	overflow-y: hidden;
+	overflow-y: scroll;
 }
 
 .terms-to-look-for{

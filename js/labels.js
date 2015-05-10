@@ -111,6 +111,26 @@ $(document).ready(function(){
 		case 'meat-pasture-raised':
 			$('.label-click-info').html("<h2>Pasture Raised</h2> <p>What it means: This claim is not defined by the USDA. The term suggests that the animal was raised outside or on pasture, but because there is no legal definition of this term, it can mean what the producer suggests it does.</p>");
 			break;
+
+		//organic labels
+		case 'organic-ingredients':
+			$('.label-click-info').html("<h2>Made with Organic Ingredients</h2> <p>This label is used with processed or multi-ingredient products. This label means that the product contains at least 70% certified organic ingredients, excluding water and salt, but isn’t 100% organic. The remaining ingredients are not required to be certified organic but they cannot be produced using certain methods. The USDA Organic seal will not be present on these products.</p>");
+			break;
+		case 'non-gmo':
+			$('.label-click-info').html("<h2>Non-GMO, GE Free, GMO Free, Non-GE</h2> <p>The FDA has not defined this claim. In fact, the FDA has issued guidance stating that they consider these terms to be misleading on most foods.  Food producers use these terms to communicate to consumers that certain products do not contain genetically engineered crops. Any producer can use these terms without pre-approval by the FDA.</p><p>Any producer can use these terms without pre-approval by the FDA.The FDA considers misleading any label that implies that food without genetically engineered ingredients is in any way superior to those products without a similar label. However, a product can still be labeled in this manner if it contains 5% or less of genetically engineered material present in the product as the result of drift or crop contamination.</p>");
+			break;
+		case 'gluten-free':
+			$('.label-click-info').html("<h2>Gluten Free</h2> <p>This claim means the food must not contain ingredients that are derived from gluten (e.g., containing grains or if the use of the ingredient results in the presence of 20 parts per million (ppm) or more in the final food product. Manufacturers may still use the claim if a gluten containing ingredient (e.g., wheat flour) has been included in the product, but has been refined to remove the gluten to less than 20 ppm.</p>");
+			break;
+		case 'no-trans-fat':
+			$('.label-click-info').html("<h2>No Trans Fats</h2> <p>Manufacturers are permitted to make claims on their labels about whether a product meets the legal standard of having no trans fat. They can make these claims if the amount of trans fat present in the product is less than 0.5 grams.</p>");
+			break;
+		case 'fresh':
+			$('.label-click-info').html("<h2>Fresh</h2> <p>This terms means that the food is unprocessed, in its raw state, and has not been subject to any thermal processing or any other form of preservation. A product can still be labeled as fresh if coated in approved waxes, sprayed post-harvest with approved pesticides, rinsed in a mild chlorine or mild acid wash, or treated with ionizing radiation.</p>");
+			break;
+		case 'organic':
+			$('.label-click-info').html("<h2>Organic</h2> <p>This term means that a product has been produced according to the standards in the Organics Foods Production Act (OFPA). Generally, a producer will not be able to use this term unless they or their supplier are certified as organic by the USDA under the National Organics Program. The exception to this general rule is that small organic farmers who sell less than $5,000 per year may use the term without being certified, but must still comply with the requirements of the OFPA.</p>");
+			break;
 	};
 });
 

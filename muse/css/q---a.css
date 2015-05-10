@@ -1,7 +1,7 @@
 .version.q___a /* version checker */
 {
-	color: #0000FE;
-	background-color: #118F0B;
+	color: #0000FD;
+	background-color: #E9A81E;
 }
 
 #page
@@ -176,9 +176,9 @@
 	width: 520px;
 	min-height: 55px;
 	background-color: transparent;
+	line-height: 60px;
 	text-align: left;
 	font-size: 50px;
-	line-height: 60px;
 	font-family: quicksand, sans-serif;
 	font-weight: 300;
 	margin-left: 9px;
@@ -565,8 +565,8 @@
 	border-color: transparent;
 	background-color: transparent;
 	color: #6B6B6B;
-	line-height: 14px;
 	text-align: left;
+	line-height: 14px;
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 	position: relative;
 	margin-right: -10000px;
@@ -800,8 +800,8 @@
 	border-color: transparent;
 	background-color: transparent;
 	color: #6B6B6B;
-	line-height: 14px;
 	text-align: left;
+	line-height: 14px;
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 	position: relative;
 	margin-right: -10000px;
@@ -937,8 +937,8 @@
 	border-color: transparent;
 	background-color: transparent;
 	color: #6B6B6B;
-	line-height: 14px;
 	text-align: left;
+	line-height: 14px;
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 	position: relative;
 	margin-right: -10000px;
