@@ -2,12 +2,6 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:300');
 @import url('http://fonts.googleapis.com/css?family=Quicksand:300');
 
-body{
-	font-size: medium;
-  
-	font-family: 'Open Sans';
-}
-
 #explore-label-nav{
 	position: relative;
 	height: 220px;
@@ -73,13 +67,13 @@ font-weight: 300;
 	z-index: 1;
 }
 
-.button-label{
-	position: absolute;
-	margin-left: 26px;
-}
-
 .egg-text{
 	background-color: #F5F3E9;
+	border-radius: 10px;
+}
+
+.processed-text{
+	background-color: #ffe1b8;
 	border-radius: 10px;
 }
 
@@ -97,11 +91,6 @@ font-weight: 300;
 	background-color: #ffcc99;
 	border-radius: 10px;
 }
-
- .processed-text{
- 	background-color: #ffe1b8;
-	border-radius: 10px;
- }
 
 
 .main-title{
@@ -124,7 +113,6 @@ font-weight: 300;
 .pic{
 	margin-left: 20px;
 	margin-right: 30px;
-	position: absolute;
 	display: inline-block;
 }
 
@@ -361,57 +349,6 @@ height: 85px;
 }
 
 
-/*processed labels*/
-#processed-calcium{
-    width: 144px;
-    height: 20px;
-    margin-left: 114px;
-    margin-top: 54px;
-}
-#processed-lowfat{
-	    width: 88px;
-    
-	    height: 33px;
-    
-	    margin-left: 156px;
-    
-	    margin-top: 109px;
-}
-#processed-heartdisease{
-	    width: 94px;
-    
-	    height: 46px;
-    
-	    margin-left: 337px;
-    
-	    margin-top: 369px;
-}
-#processed-naturalflavor{
-	    width: 83px;
-    height: 20px;
-    
-	    margin-left: 258px;
-    
-	    margin-top: 54px;
-}
-#processed-identity{
-	    width: 324px;
-    
-	    height: 87px;
-    margin-left: 114px;
-    
-	    margin-top: 141px;
-}    
-#processed-quantity{
-	    width: 91px;
-    height: 20px;
-    
-	    margin-left: 339px;
-    
-	    margin-top: 464px;
-}
-
-
 .label-text-box{
 	 	position: relative;
   top: 350px;
@@ -424,6 +361,17 @@ height: 85px;
 	border-radius: 20px;
 }
 
+#processed-label-text-box{
+	max-width: 367px;
+	/* margin-left: 620px; */
+	/* display: inline-block; */
+	/* margin-top: -49px; */
+	position: absolute;
+	margin-left: 550px;
+	margin-top: 554px;
+	height: 333px;
+}
+
 #poultry-label-text-box{
 	max-width: 367px;
 	/* margin-left: 620px; */
@@ -434,17 +382,6 @@ height: 85px;
 	margin-top: 474px;
 	height: 333px;
 }
-
- #processed-label-text-box{
- 	max-width: 367px;
- 	/* margin-left: 620px; */
- 	/* display: inline-block; */
- 	/* margin-top: -49px; */
- 	position: absolute;
- 	margin-left: 550px;
- 	margin-top: 554px;
- 	height: 333px;
- }
 
 .label-click-info{
 
@@ -485,14 +422,9 @@ height: 85px;
 	margin-top: 500px;
 }
 
-#organic-terms{
-
-}
-
 #processed-terms{
 	margin-top: 616px;
 }
-
 
 .terms-title{
 	  line-height: 43px;
@@ -509,16 +441,14 @@ height: 85px;
   border-color: transparent;
   background-color: #468966;
   border-radius: 100px;
-  
-	width: 40px;
-  
-	height: 40px;
+  width: 25px;
+  height: 25px;
 }
 
 .term-text{
 	margin-left: 10px;
 	display: inline-block;
-	width: 800px;
+	width: 300px;
 	  font-size: 18px;
   color: #000000;
   font-family: 'Open Sans', sans-serif;

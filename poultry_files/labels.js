@@ -78,12 +78,8 @@ $(document).ready(function(){
 		case 'cage-free':
 			$('.label-click-info').html("<h2>Cage-Free</h2> <p>What it is: This term is not defined by the USDA. However, if a USDA-inspected producer wants to use the term “cage free” on its packaging, the agency must first verify the claim. The USDA will allow the use of the term if the poultry flock was able to freely roam a building, room, or enclosed area with unlimited access to food and fresh water.</p>");
 			break;
-
-
-		//poultry labels
 		case 'poultry-all-natural':
 			$('.label-click-info').html("<h2>All-Natural</h2> <p>What it means: This claim has not been precisely defined by the USDA, however, it means that the product is free of artificial ingredients or added colors and has only been minimally processed. Minimal processing means that the product was processed in a way that has not fundamentally changed the product. If a producer chooses to use this term, the label must include a statement explaining how the producer has defined the term. E.g., the label must say “no artificial ingredients” or “minimally processed.</p>");
-			break;
 		case 'poultry-no-antibiotics':
 			$('.label-click-info').html("<h2>Antibiotic Free</h2> <p>What it means: This language may be used on a label if the producer can provide “sufficient documentation” to the USDA to show the animal was raised without the use of antibiotics.</p>");
 			break;

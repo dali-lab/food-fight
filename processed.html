@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Food Fight</title>
-	<link rel="stylesheet" href="dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/explore-labels.css">
-	<link rel="stylesheet" href="css/navbar.css">
-	<link rel="stylesheet" href="css/sidenav.css">
+  <title>Food Fight</title>
+  <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/explore-labels.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/sidenav.css">
 
-	<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
-	<script type="text/javascript" src="js/sidenav.js"></script>
+  <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+  <script type="text/javascript" src="js/sidenav.js"></script>
   <script type="text/javascript" src="js/labels.js"></script>
   <script type="text/javascript" src="js/smooth_scroll.js"></script>
   <script src="dist/js/bootstrap.min.js"></script>
@@ -34,8 +34,8 @@
 </head>
 <body>
 
-	<!--side nav-->
-	<div id="side-nav">
+  <!--side nav-->
+  <div id="side-nav">
     <div id="side-nav-menu">
       <div class="side-nav-item">
         <div class="side-nav-circle">
@@ -86,7 +86,7 @@
     </nav>
 
         <!--explore labels button box-->
-      <div id="explore-label-nav">
+  <div id="explore-label-nav">
      <div id="explore-sections-text">Explore the sections individually or read through each of them to test your knowledge!</div>
      <div id="label-button-row">
 
@@ -144,35 +144,40 @@
 <div id="all-about-eggs">
   <div class="main-title">Processed</div>
   <div class="pic-and-overview">
-    <div class="overview pork-text" id="poultry-overview">
+    <div class="overview processed-text" id="poultry-overview">
       <div class="overview-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae interdum metus, eget pharetra leo. Donec eros tortor, eleifend sed molestie a, ultrices vel nibh. Vestibulum blandit, nunc eu adipiscing mattis, dui ante pulvinar diam,
-        quis tristique nibh elit id tortor. Nullam metus dolor, aliquam sed odio quis, scelerisque interdum felis. Ut in fermentum tortor. interdum felis. Ut in fermentum tortor.
+        The processed food label can found on anything from cereal to potato chips and may be on an organic or conventional food product.  Because most food in the grocery store is processed in some way, this label is the most be common label consumers encounter. 
       </div>
     </div>
-    <div class="pork-pic">
-      <img style="margin-top: -340px; -moz-transform: scaleX(1); -webkit-transform: scaleX(1); -o-transform: scaleX(1); transform: scaleX(1)" src="images/pork.png" alt width="489" height="285"/>
+    <div class="pic" style="margin-top: 10px">
+      <img src="images/chips-big.png" alt width="323" height="357"/>
     </div>
   </div>
 </div>
 
 <div id="click-the-label">
   <div class="pic-and-buttons" id="poultry-pic-and-buttons">
-    <img style="position: absolute; margin-left: 10px" src="images/bacon.png" alt width="598" height="405">
-    <div class="label-button" id="pork-naturally-raised"></div>
-    <div class="label-button" id="pork-locally-grown"></div>
-    <div class="label-button" id="pork-minimally-processed"></div>
-    <div class="label-button" id="pork-uncured"></div>
+    <img style="position: absolute; margin-left: 90px" src="images/cereal.png" alt width="371" height="500">
+
+<!--     Max: I tried implementing the below button but on the page they would be invisible -->
+    <div class="label-button" id="processed-calcium"></div>
+    <div class="label-button" id="processed-lowfat"></div>
+    <div class="label-button" id="processed-heartdisease"></div>
+    <div class="label-button" id="processed-naturalflavor"></div>
+    <div class="label-button" id="processed-identity"></div>
+    <div class="label-button" id="processed-quantity"></div>
+
+
 
   </div>
-  <div class="label-text-box pork-text" id="poultry-label-text-box">
+  <div class="label-text-box processed-text" id="processed-label-text-box">
     <div class="label-click-info"><h1>Click on the Labels to Learn More!</h1></div>
   </div>
 
 </div>
 
 
-<div class="terms-to-look-for" id="processed-terms">
+<div class="terms-to-look-for" id="processed-terms" style="margin-top: 560px"> <!-- changing this to processed breaks the buttons -->
   <div class="terms-title">Terms to look for</div>
   <table>
     <tr>
@@ -239,8 +244,8 @@
     <form id='form'></form>
       
         <div class="submit-button">
-		<button onclick="submit('form', 'poultry.html')">Submit</button>
-	</div>
+    <button onclick="submit('form', 'poultry.html')">Submit</button>
+  </div>
       </div>
   </div>
 </div>
