@@ -157,6 +157,14 @@ font-weight: 300;
 	overflow-y: scroll;
 }
 
+#egg-overview{
+	margin-left: 54px;
+	margin-right: 60px;
+	margin-top: 30px;
+	  height: 320px;
+
+}
+
 #poultry-overview{
 	margin-left: 54px;
 	margin-right: 60px;
@@ -184,6 +192,14 @@ font-weight: 300;
 	border: 25px solid transparent;
 	overflow-y: scroll;
 }
+
+.overview-title{
+  line-height: 43px;
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  padding-bottom: 5px;
+ }
 
 #click-the-label{
 		width: 1000px;
@@ -558,6 +574,16 @@ height: 85px;
 	overflow-y: scroll;
 }
 
+.label-default-text {
+	text-align: center;
+	position: relative;
+	padding-top: 10%;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transfrom: translateY(-50%);
+	transform: translateY(-50%);
+}
+
 .terms-to-look-for{
 	position: relative;
 	width: 900px;
@@ -599,8 +625,8 @@ height: 85px;
 
 .term-circle{
 	display: inline-block;
-	transform: translateY(-100%);
-	  box-shadow: -2px 3px 1px rgba(0,0,0,0.5);
+	/*transform: translateY(-300%);*/
+	box-shadow: -2px 3px 1px rgba(0,0,0,0.5);
   border-style: none;
   border-color: transparent;
   background-color: #468966;
@@ -609,10 +635,22 @@ height: 85px;
 	width: 40px;
   
 	height: 40px;
+
 }
 
-.term-text{
+.term-subtitle{
 	margin-left: 10px;
+	display: inline-block;
+	width: 800px;
+	  font-size: 22px;
+	  font-style: italic;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.term-text{
+	margin-left: 50px;
 	display: inline-block;
 	width: 800px;
 	  font-size: 18px;
