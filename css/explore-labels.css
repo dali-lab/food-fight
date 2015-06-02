@@ -624,8 +624,7 @@ height: 85px;
 }
 
 .term-circle{
-	display: inline-block;
-	/*transform: translateY(-300%);*/
+float: left;
 	box-shadow: -2px 3px 1px rgba(0,0,0,0.5);
   border-style: none;
   border-color: transparent;
@@ -640,7 +639,8 @@ height: 85px;
 
 .term-subtitle{
 	margin-left: 10px;
-	display: inline-block;
+	margin-top: 7px;
+	float: left;
 	width: 800px;
 	  font-size: 22px;
 	  font-style: italic;
@@ -650,8 +650,9 @@ height: 85px;
 
 
 .term-text{
-	margin-left: 50px;
-	display: inline-block;
+	margin-left: 59px;
+	margin-top: 7px;
+	float: left;
 	width: 800px;
 	  font-size: 18px;
   color: #000000;

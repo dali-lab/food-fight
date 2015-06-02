@@ -8,7 +8,8 @@ html,body
     width: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    min-width: 832px;
+    overflow-x: hidden;
 }
 
 /**navbar*/
@@ -26,8 +27,28 @@ html,body
   font-size: 48px;
 }
 
+
+/*prevent collaps*/
+.navbar-collapse.collapse {
+display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+float: left !important;
+}
+
+
+.navbar, .container-fluid { 
+  height: 45px; 
+  max-height: 45px;
+  min-height: 45px;
+  min-width: 768px;
+}
+
 .navbar{
     margin-bottom: 0px;
+    border: none;
+
 }
 
 .container-fluid{
@@ -36,12 +57,11 @@ html,body
 .nav{
   width: 100%;
   text-align: center;
-  margin-left: 5%;
-  margin-right: 5%;
+  vertical-align: center;
 }
 
 .nav>li{
-  width: 18%;
+  width: 20%;
   font-size: 18px;
   font-family: quicksand, sans-serif;
   font-weight: 300;
