@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #000000;
-	background-color: #EBB02D;
+	color: #0000FA;
+	background-color: #DA5D7F;
 }
 
 .html
@@ -289,9 +289,9 @@
 	width: 350px;
 	min-height: 94px;
 	background-color: transparent;
-	color: #B32230;
 	line-height: 72px;
 	font-size: 60px;
+	color: #B32230;
 	font-family: arvo, serif;
 	font-weight: 700;
 	font-style: italic;
@@ -390,9 +390,9 @@
 	width: 145px;
 	min-height: 70px;
 	background-color: transparent;
+	line-height: 36px;
 	text-align: center;
 	color: #B32230;
-	line-height: 36px;
 	font-size: 30px;
 	font-family: arvo, serif;
 	font-weight: 700;
@@ -409,9 +409,9 @@
 	width: 145px;
 	min-height: 70px;
 	background-color: transparent;
+	line-height: 36px;
 	text-align: center;
 	color: #B32230;
-	line-height: 36px;
 	font-size: 30px;
 	font-family: arvo, serif;
 	font-weight: 700;
@@ -428,9 +428,9 @@
 	width: 188px;
 	min-height: 70px;
 	background-color: transparent;
+	line-height: 36px;
 	text-align: center;
 	color: #B32230;
-	line-height: 36px;
 	font-size: 30px;
 	font-family: arvo, serif;
 	font-weight: 700;
@@ -486,9 +486,9 @@
 	z-index: 97;
 	min-height: 82px;
 	background-color: transparent;
+	line-height: 72px;
 	text-align: center;
 	color: #B32230;
-	line-height: 72px;
 	font-size: 60px;
 	font-family: arvo, serif;
 	font-weight: 700;
@@ -629,8 +629,8 @@
 	width: 74px;
 	min-height: 113px;
 	background-color: transparent;
-	color: #FFFFFF;
 	line-height: 156px;
+	color: #FFFFFF;
 	font-size: 130px;
 	font-family: arvo, serif;
 	font-weight: 700;
@@ -1119,8 +1119,8 @@
 	width: 136px;
 	min-height: 27px;
 	background-color: transparent;
-	color: #FFFFFF;
 	line-height: 22px;
+	color: #FFFFFF;
 	font-size: 18px;
 	font-family: open-sans, sans-serif;
 	font-weight: 300;
@@ -1200,8 +1200,8 @@
 	width: 730px;
 	min-height: 45px;
 	background-color: transparent;
-	color: #FFFFFF;
 	line-height: 36px;
+	color: #FFFFFF;
 	font-size: 30px;
 	font-family: open-sans, sans-serif;
 	font-weight: 300;
@@ -1217,8 +1217,8 @@
 	width: 280px;
 	min-height: 35px;
 	background-color: transparent;
-	color: #FFFFFF;
 	line-height: 29px;
+	color: #FFFFFF;
 	font-size: 24px;
 	font-family: open-sans, sans-serif;
 	font-weight: 400;

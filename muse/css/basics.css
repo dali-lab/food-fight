@@ -1,7 +1,7 @@
 .version.basics /* version checker */
 {
-	color: #00000A;
-	background-color: #55CB43;
+	color: #0000EA;
+	background-color: #C1E055;
 }
 
 .html
@@ -499,8 +499,8 @@
 	width: 378px;
 	min-height: 116px;
 	background-color: transparent;
-	color: #FFFFFF;
 	line-height: 24px;
+	color: #FFFFFF;
 	font-size: 20px;
 	font-family: open-sans, sans-serif;
 	font-weight: 300;
@@ -838,9 +838,9 @@
 	width: 127px;
 	min-height: 91px;
 	background-color: transparent;
-	color: #468966;
 	line-height: 72px;
 	font-size: 60px;
+	color: #468966;
 	font-family: arvo, serif;
 	font-weight: 700;
 	font-style: italic;
@@ -854,9 +854,9 @@
 	width: 118px;
 	min-height: 81px;
 	background-color: transparent;
-	color: #B32230;
 	line-height: 72px;
 	font-size: 60px;
+	color: #B32230;
 	font-family: arvo, serif;
 	font-weight: 700;
 	font-style: italic;
