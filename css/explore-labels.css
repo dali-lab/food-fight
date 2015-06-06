@@ -238,13 +238,13 @@ font-weight: 300;
 }
 
 #USDA-organic{
-margin-left: 144px;
+margin-left: 464px;
 
-margin-top: 43px;
+margin-top: 208px;
 
-width: 85px;
+width: 55px;
 
-height: 85px;
+height: 55px;
 
 }
 
@@ -519,6 +519,7 @@ height: 85px;
 	border-color: #000000;
 
 	border-radius: 20px;
+	height:245px;
 }
 
 #poultry-label-text-box{
@@ -577,12 +578,12 @@ height: 85px;
 .label-default-text {
 	text-align: center;
 	position: relative;
-	padding-top: 10%;
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 	-ms-transfrom: translateY(-50%);
 	transform: translateY(-50%);
 }
+
 
 .terms-to-look-for{
 	position: relative;
