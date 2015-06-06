@@ -28,13 +28,18 @@ function populate_survey(form_name, survey_name) {
           
           for (var i=0; i < results.length; i++) {
             if ($.inArray(results[i].get("question_numb"), quest_array) != -1) {
-          
-                questions += results[i].get("question") + "<br />";
-                questions += '<input type="radio" id=\"q' + results[i].get("question_numb") + '\" name=name' + results[i].get("question_numb") + ' value=\"' + results[i].get("a1") + '\"> ' + results[i].get("a1") + "<br />";
-                questions += '<input type="radio" id=\"q' + results[i].get("question_numb") + '\" name=name' + results[i].get("question_numb") + ' value=\"' + results[i].get("a2") + '\"> ' + results[i].get("a2") + "<br />";
-                questions += '<input type="radio" id=\"q' + results[i].get("question_numb") + '\" name=name' + results[i].get("question_numb") + ' value=\"' + results[i].get("a3") + '\"> ' + results[i].get("a3") + "<br />";
-                questions += '<input type="radio" id=\"q' + results[i].get("question_numb") + '\" name=name' + results[i].get("question_numb") + ' value=\"' + results[i].get("a4") + '\"> ' + results[i].get("a4") + "<br /><br />";
+                var pref = "a"
+                var question = 1;
+                var quest_name = pref.concat(question);
                 
+                questions += results[i].get("question") + "<br />";
+                while (results[i].get(quest_name) != " ") {
+                  questions += '<input type="radio" id=\"q' + results[i].get("question_numb") + '\" name=name' + results[i].get("question_numb") + ' value=\"' + results[i].get(quest_name) + '\"> ' + results[i].get(quest_name) + "<br />";
+                  question = question + 1;
+                  quest_name = pref.concat(question);
+                }
+                questions += "<br />";
+
                }
           }
           

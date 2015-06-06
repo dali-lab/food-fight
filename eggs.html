@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Food Fight</title>
+  <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/explore-labels.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/sidenav.css">
+
+  <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+  <script type="text/javascript" src="js/sidenav.js"></script>
+  <script type="text/javascript" src="js/labels.js"></script>
+  <script type="text/javascript" src="js/smooth_scroll.js"></script>
+  <script src="dist/js/bootstrap.min.js"></script>
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+  <!--
+  SweetAlert written by Tristan Edwards with free-use license
+  http://tristanedwards.me/sweetalert
+-->
+<script src="sweet-alert-lib/sweet-alert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="sweet-alert-lib/sweet-alert.css">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.3.4.min.js"></script>
+
+<script type="text/javascript" src="js/survey.js"></script>
+<script type="text/javascript" src="js/populate_surv.js"></script>
+<script>
+$(document).ready(function() {
+  populate_survey('form', "eggs");  
+})
+</script>
+
+</head>
+<body>
+
+  <!--side nav-->
+  <div id="side-nav">
+    <div id="side-nav-menu">
+      <div class="side-nav-item">
+        <div class="side-nav-circle">
+          <a class="link" href="#all-about-eggs"></a>
+        </div>
+        <div class="nav-item-text" id="item-text1">All About Eggs</div>
+        <!--<p>hello</p>-->
+        <div class="side-nav-connector"></div>
+      </div>
+      <div class="side-nav-item">
+        <div class="side-nav-circle">
+          <a class="link" href="#click-the-label"></a>
+        </div>
+        <div class="nav-item-text" id="item-text2">Click the Label</div>
+        <div class="side-nav-connector"></div>
+      </div>
+      <div class="side-nav-item">
+        <div class="side-nav-circle">
+          <a class="link" href="#egg-terms"></a>
+        </div>
+        <div class="nav-item-text" id="item-text3">Terms to Look for</div>
+        <div class="side-nav-connector"></div>
+      </div>
+      <div class="side-nav-item">
+        <div class="side-nav-circle">
+          <a class="link" href="#quiz"></a>
+        </div>
+        <div class="nav-item-text" id="item-text4">Quiz</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="above-side-nav">
+
+    <!--nav bar-->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div>
+          <ul class="nav navbar-nav">
+            <li><a href="muse/index.html">Home</a></li>
+            <li><a href="muse/basics.html">Basics</a></li> 
+            <li class="active"><a href="explore-labels.html">Explore Labels</a></li> 
+            <li><a href="muse/glossary.html">Glossary</a></li> 
+            <li><a href="qanda.html">Q & A</a></li> 
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--explore labels button box-->
+  <div id="explore-label-nav">
+     <div id="explore-sections-text">Explore the sections individually or read through each of them to test your knowledge!</div>
+     <div id="label-button-row">
+
+      <div class="label-nav-button">
+       <div class="pic-and-link">
+        <a class="button-link" href="explore-labels.html"></a>
+        <img style="margin-left: -1px; margin-top: -9px" src="images/apple.png" alt="" width="72" height="72">
+      </div>
+<div class="button-label" style="margin-top: 15px">Organic</div>
+    </div>
+
+    <div class="label-nav-button">
+     <div class="pic-and-link">
+      <a class="button-link" href="processed.html"></a>
+      <img style="margin-left: 8px; margin-top: -4px" src="images/chips.png" alt width="60" height="65">
+    </div>
+<div class="button-label" style="margin-top: 17px">Processed</div>
+  </div>
+
+  <div class="label-nav-button">
+   <div class="pic-and-link">
+    <a class="button-link" href="eggs.html"></a>
+    <img src="images/eggs.png" alt="" width="77" height="58">
+  </div>
+<div class="button-label" style="margin-top: 21px">Eggs</div>
+
+</div>
+
+<div class="label-nav-button">
+ <div class="pic-and-link">
+  <a class="button-link" href="poultry.html"></a>
+  <img style="margin-left:-3px; margin-top:-7px;" src="images/poultry.png" alt="" width="84" height="76">
+</div>
+<div class="button-label" style="margin-top: 10px">Poultry</div>
+
+</div>
+
+<div class="label-nav-button">
+ <div class="pic-and-link">
+  <a class="button-link" href="beef.html"></a>
+  <img style="margin-left: -5px" src="images/cow.png" alt="" width="89" height="65">
+</div>
+<div class="button-label" style="margin-top: 14px">Beef</div>
+
+</div>
+
+<div class="label-nav-button">
+ <div class="pic-and-link">
+  <a class="button-link" href="pork.html"></a>
+  <img style="margin-left: -2px" src="images/pigs.png" alt="" width="85" height="60">
+</div>
+<div class="button-label" style="margin-top: 19px">Pork</div>
+</div>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+</div>
+
+<!--Eggs page-->
+
+<div id="all-about-eggs">
+  <div class="main-title">Eggs</div>
+  <div class="pic-and-overview">
+    <div class="pic" id="egg-pic">
+      <img src="images/egg carton.jpg" width="461" height="302"/>
+    </div>
+  <div class="pic-and-overview">
+    <div class="overview processed-text" id="egg-overview">
+      <div class="overview-text egg-text">
+        <div class="overview-title" style="font-family: 'Open Sans'">Overview</div>
+        The label claims on egg cartons not only vary wildly from brand to brand, but a single label may have numerous voluntary claims included by the manufacturer in an attempt to get you to buy them and pay a premium. 
+<br /><br />
+One carton may claim that the eggs are "free range" while another might claim the eggs are "free roaming." Is there a difference between those two? From an animal welfare perspective, is one of them preferable? Should either of those claims justify the increased cost?  The label below is intended to help you answer those questions for yourself and evaluate the differences among egg products.
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="click-the-label">
+  <div class="pic-and-buttons">
+    <img style="position: absolute; margin-left: 56px" src="images/eggcarton4.png" alt="" width="878" height="314">
+    <div class="label-button" id="USDA-organic"></div>
+    <div class="label-button" id="all-natural"></div>
+    <div class="label-button" id="no-antibiotics"></div>
+    <div class="label-button" id="free-roaming"></div>
+    <div class="label-button" id="no-hormones"></div>
+    <div class="label-button" id="grade-a"></div>
+    <div class="label-button" id="omega-3"></div>
+    <div class="label-button" id="saturated-fat"></div>
+    <div class="label-button" id="vitamin-e"></div>
+  </div>
+  <div class="label-text-box egg-text">
+    <div class="label-click-info"><div class="label-default-text"><h1>Click a term to learn more!</h1></div></div>
+  </div>
+
+</div>
+
+
+<div class="terms-to-look-for" id="egg-terms">
+  <div class="terms-title">Terms to look for</div>
+  <table>
+    <tr>
+      <td>
+        <div class="term-item">
+          <div class="term-circle"></div>
+          <div class="term-subtitle">
+            Cage-Free</div>
+          <div class="term-text">
+
+This term is not defined by the USDA. However, if a USDA-inspected egg producer wants to use the term "cage free" on its egg cartons, the agency must first verify the claim. The USDA will allow the use of the term if the poultry flock was able to freely roam a building, room, or enclosed area with unlimited access to food and fresh water.
+
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="term-item">
+            <div class="term-circle"></div>
+            <div class="term-subtitle">Free-Range</div>
+            <div class="term-text">
+
+
+This term is not defined by the USDA. However, if a USDA-inspected producer wants to use the term "free range," the agency  must first verify the claim. The USDA will allow the use of the term if the flock was provided shelter in a building, room, or area with unlimited access to food, fresh water, and continuous access to outdoors which can be met by having an open window.
+
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="term-item">
+            <div class="term-circle"></div>
+            <div class="term-subtitle">Free-Roaming</div>
+            <div class="term-text">
+              
+
+This term has only been defined by the USDA for poultry products. When used by a producer for another type of meat, the term usually means something similar to the definition used for poultry, but does not need to conform to that standard.
+
+            </div>
+          </div>
+        </td>
+      </tr>
+
+        <tr>
+        <td>
+          <div class="term-item">
+            <div class="term-circle"></div>
+            <div class="term-subtitle">Certified Organic</div>
+            <div class="term-text">
+This term means that a product has been produced according to the standards in the Organics Foods Production Act (OFPA). Generally, a producer will not be able to use this term unless they or their supplier are certified as organic by the USDA under the National Organics Program. Basically, organic production limits the use of artificial chemicals, pesticides, hormones, antibiotics, and other inputs, as well as genetic engineering. These birds are also free range.
+
+
+            </div>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="term-item">
+            <div class="term-circle"></div>
+             <div class="term-subtitle">Vegetarian-Fed</div>
+            <div class="term-text">
+
+This term is not defined by the USDA. A producer may use this term on a label if the poultry feed does not include animal byproducts. No independent third party verifies this claim and the USDA does not require any verification before its inclusion on a label.
+
+
+            </div>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="term-item">
+            <div class="term-circle"></div>
+            <div class="term-subtitle">All Natural/Natural</div>
+            <div class="term-text">
+    
+
+This claim has not been precisely defined by the USDA, however, it means that the eggs are free of artificial ingredients or added colors and have only been minimally processed. Minimal processing means that the product was processed in a way that has not fundamentally changed the product. If a producer chooses to use this term, the label must include a statement explaining how the producer has defined the term. E.g., the label must say "no artificial ingredients" or "minimally processed." Most, if not all, eggs in shells are not processed
+
+
+
+            </div>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="term-item">
+            <div class="term-circle"></div>
+            <div class="term-subtitle">Farm Fresh</div>
+            <div class="term-text">
+             
+
+This claim has not been defined by the USDA and there are no requirements for its use.
+
+<br /><br />
+
+            </div>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="term-item">
+            <div class="term-circle"></div>
+             <div class="term-subtitle">Omega-3 Enriched</div>
+            <div class="term-text">
+          
+
+This claim means the chickens have been fed a diet that includes certain ingredients (e.g., flax seed, fish oil, or algae) to increase the amount of omega 3 fatty acids found in the eggs. To use this claim, the producer or manufacturer must include the actual amount of the dietary ingredient per serving
+
+
+
+            </div>
+          </div>
+        </td>
+      </tr>
+
+            <tr>
+        <td>
+          <div class="term-item">
+            <div class="term-circle"></div>
+            <div class="term-subtitle">Grade A</div>
+            <div class="term-text">
+    
+
+The USDA provides a voluntary grading service that inspects eggs in the shell and assigns them a grade. Under the program, consumers can purchase products with official grading from the agency as a means of determining the product’s quality.86 The grades depend on the egg’s interior and exterior qualities. A Grade A classification is the second highest.87
+
+
+
+
+
+            </div>
+          </div>
+        </td>
+      </tr>
+
+            <tr>
+        <td>
+          <div class="term-item">
+            <div class="term-circle"></div>
+            <div class="term-subtitle">Less Saturated Fat</div>
+            <div class="term-text">
+  
+
+This claim means the eggs have less saturated fat than the normal product standard for eggs of the same size. A manufacturer or producer may include this claim on a product so long as the label states the food to which the comparison or reference is being made and the percentage or fraction by which the nutrient differs.
+
+
+
+
+            </div>
+          </div>
+        </td>
+      </tr>
+
+            <tr>
+        <td>
+          <div class="term-item">
+            <div class="term-circle"></div>
+            <div class="term-subtitle">Extra Vitamins and Minerals</div>
+            <div class="term-text">
+
+
+This claim means the eggs contain 10% more of the daily reference values for vitamins and minerals. A manufacturer or producer may include a relative claim using the words "more," "fortified," "enriched," "added," "extra," and "plus" on the label to describe levels of protein, vitamins, minerals, dietary fiber or potassium so long as the food contains 10% more of the recommended daily intake or daily reference value for the ingredient claimed.
+
+            </div>
+          </div>
+        </td>
+      </tr>
+
+            <tr>
+        <td>
+          <div class="term-item">
+            <div class="term-circle"></div>
+            <div class="term-subtitle">Excellent Source of Vitamin E</div>
+            <div class="term-text">
+
+
+This claim means the eggs contain 20% or more of the daily reference value for vitamin E.
+A manufacturer or producer may include this claim or suggest the product is "high in" or "rich in" a particular nutrient if it contains 20% or more of the recommended daily intake or daily reference value for the specific nutrient.
+
+
+            </div>
+          </div>
+        </td>
+      </tr>
+
+                  <tr>
+        <td>
+          <div class="term-item">
+            <div class="term-circle"></div>
+            <div class="term-subtitle">No Hormones Added</div>
+            <div class="term-text">
+
+The USDA does not permit the use of hormones in the raising of poultry. Consequently, this claim cannot be used on a poultry label unless it is accompanied by language stating that "federal regulations prohibit the use of hormones" or some other qualifying language approved by the agency
+
+
+            </div>
+          </div>
+        </td>
+      </tr>
+
+                  <tr>
+        <td>
+          <div class="term-item">
+            <div class="term-circle"></div>
+            <div class="term-subtitle">No Antibiotics</div>
+            <div class="term-text">
+
+
+This language may be used on a label if the producer can provide "sufficient documentation" to the USDA to show the chicken was raised without the use of antibiotics.
+
+
+            </div>
+          </div>
+        </td>
+      </tr>
+
+                        <tr>
+        <td>
+          <div class="term-item">
+            <div class="term-circle"></div>
+            <div class="term-subtitle">Fed Non-GMO Vegetarian Diet</div>
+            <div class="term-text">
+
+A producer may use this term on a label if the poultry feed does not contain genetically engineered ingredients and does not include animal byproducts. No independent third party verifies this claim prior to its inclusion on a label.
+
+
+
+            </div>
+          </div>
+        </td>
+      </tr>
+
+
+                        <tr>
+        <td>
+          <div class="term-item">
+            <div class="term-circle"></div>
+            <div class="term-subtitle">Certified Humane</div>
+            <div class="term-text">
+This claim means the hens may kept indoors at all times, but cannot be in cages. In addition, they must be able to perform natural behaviors such as nesting, perching, and dust bathing. Forced molting through starvation is prohibited, but this standard allows for the cutting of the birds’ beaks.  Compliance is not verified by either the USDA or FDA, but rather is verified through third-party auditing as a program of Humane Farm Animal Care.
+
+
+
+            </div>
+          </div>
+        </td>
+      </tr>
+
+
+
+
+
+    </table>
+  </div>
+  <div id="quiz">
+    <div class="quiz-title" style="font-family: 'Open Sans'">Are you an Eggspert?</div>
+    <div class="quiz-box">
+      <div class="quiz-text">
+        <form id='form'></form>
+      </div>
+      <div class="submit-button">
+        <button onclick="submit('form', 'poultry.html')">Submit</button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+</body>
+</html>
