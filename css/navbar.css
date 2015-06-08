@@ -39,9 +39,9 @@ float: left !important;
 
 
 .navbar, .container-fluid { 
-  height: 45px; 
-  max-height: 45px;
-  min-height: 45px;
+  height: 50px; 
+  max-height: 50px;
+  min-height: 50px;
   min-width: 768px;
 }
 

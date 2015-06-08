@@ -19,14 +19,14 @@ $(document).ready(function(){
 
     //processed page labels. NOT WORKING atm
      case 'processed-calcium':
-        $('.label-click-info').html("<h2>Calcium Builds Strong Bones</h2> <p>What it means: This is an example of a voluntary structure function claim which describes the effect that an individual nutrient or substance has on the normal structure and function of the body. For example, “calcium builds strong bones” or “fiber maintains bowel regularity.” The key aspect of a structure function claim is that it relates to the normal function of the human body, which is different from a health claim that deals specifically with diseases and the disease reducing or preventing qualities of a product. These types of claims do not require pre-approval from the FDA. If a producer wants to make a structure function claim they must include the following disclaimer: “This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.”</p>");
+        $('.label-click-info').html("<h2>Calcium Builds Strong Bones</h2> <p>What it means: This is an example of a voluntary structure function claim which describes the effect that an individual nutrient or substance has on the normal structure and function of the body. For example, \"calcium builds strong bones\" or \"fiber maintains bowel regularity.\" The key aspect of a structure function claim is that it relates to the normal function of the human body, which is different from a health claim that deals specifically with diseases and the disease reducing or preventing qualities of a product. These types of claims do not require pre-approval from the FDA. If a producer wants to make a structure function claim they must include the following disclaimer: \"This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.\"</p>");
         console.log("hello");
         break;
      case 'processed-lowfat':
         $('.label-click-info').html("<h2>Low Fat</h2> <p>What it means: This is an example of a voluntary nutrient content claim, which characterizes the level of an individual nutrient in the food product. For example, low fat, high in fiber, or reduced sodium. Only the following claims can be made with regard to any individual nutrient: (1) free; (2) low; (3) reduced; (4) fewer; (5) lean; (6) high; (7) less; (8) more; (9) extra lean; (10) good source; (11) light; and (12) healthy. There are specific criteria laid out in federal law that govern when these terms can be used. For example, a label can say “fat free” if the products contains less than 0.5 grams of fat per serving.</p>");
         break;
      case 'processed-heartdisease':
-        $('.label-click-info').html("<h2>Can Reduce the Risk of Heart Disease</h2> <p>What it means: This is an example of a voluntary health claim, which either expressly, or by implication, describes the relationship between: (A) the food product or any component of the food; and (B) a disease or health related condition. A claim on a label is only considered a health claim if it references disease risk reduction. These claims can either be in the form of an affirmative statement, such as “can help lower cholesterol and reduce the risk of heart disease” or they can be implied with the use of symbols or images. For example, a heart symbol placed on a package can imply that a food is heart healthy.</p>");
+        $('.label-click-info').html("<h2>Can Reduce the Risk of Heart Disease</h2> <p>What it means: This is an example of a voluntary health claim, which either expressly, or by implication, describes the relationship between: (A) the food product or any component of the food; and (B) a disease or health related condition. A claim on a label is only considered a health claim if it references disease risk reduction. These claims can either be in the form of an affirmative statement, such as \"can help lower cholesterol and reduce the risk of heart disease\" or they can be implied with the use of symbols or images. For example, a heart symbol placed on a package can imply that a food is heart healthy.</p>");
         break;
      case 'processed-naturalflavor':
         $('.label-click-info').html("<h2>Natural Flavoring</h2> <p>What it means: This claim means the product has been processed without the use of nitrates or nitrites.</p>");
@@ -51,18 +51,18 @@ $(document).ready(function(){
 			break;
 		//grey label
 		case 'no-antibiotics':
-			$('.label-click-info').html("<h2>Antibiotic Free</h2> <p>What it means: This language may be used on a label if the producer can provide “sufficient documentation” to the USDA to show the chicken was raised without the use of antibiotics.</p>");
+			$('.label-click-info').html("<h2>Antibiotic Free</h2> <p>What it means: This language may be used on a label if the producer can provide \"sufficient documentation\" to the USDA to show the chicken was raised without the use of antibiotics.</p>");
 			break;
 		//green label
 		case 'free-roaming':
 			$('.label-click-info').html("<h2>Free-Roam</h2> <p>What it means: This term has only been defined by the USDA for poultry products. When used by a producer for another type of meat, the term usually means something similar to the definition used for poultry, but does not need to conform to that standard.</p>");
 			break;
 		case 'no-hormones':
-			$('.label-click-info').html("<h2>Hormone Free</h2> <p>What it means: The USDA does not permit the use of hormones in the raising of poultry. Consequently, this claim cannot be used on a poultry label unless it is accompanied by language stating that “federal regulations prohibit the use of hormones” or some other qualifying language approved by the agency.</p>");
+			$('.label-click-info').html("<h2>Hormone Free</h2> <p>What it means: The USDA does not permit the use of hormones in the raising of poultry. Consequently, this claim cannot be used on a poultry label unless it is accompanied by language stating that \"federal regulations prohibit the use of hormones\" or some other qualifying language approved by the agency.</p>");
 			break;
 		// yellow label
 		case 'grade-a':
-			$('.label-click-info').html("<h2>Grade-A</h2> <p>What it means: The USDA provides a voluntary grading service that inspects eggs in the shell and assigns them a grade. Under the program, consumers can purchase products with official grading from the agency as a means of determining the product’s quality.86 The grades depend on the egg’s interior and exterior qualities. A Grade A classification is the second highest</p>");
+			$('.label-click-info').html("<h2>Grade-A</h2> <p>What it means: The USDA provides a voluntary grading service that inspects eggs in the shell and assigns them a grade. Under the program, consumers can purchase products with official grading from the agency as a means of determining the product's quality. The grades depend on the egg's interior and exterior qualities. A Grade A classification is the second highest</p>");
 			break;
 		//grey label
 		case 'omega-3':
@@ -76,7 +76,7 @@ $(document).ready(function(){
 			$('.label-click-info').html("<h2>Vitamin-E</h2> <p>What it means: This claim means the eggs contain 20% or more of the daily reference value for vitamin E.</p>");
 			break;
 		case 'cage-free':
-			$('.label-click-info').html("<h2>Cage-Free</h2> <p>What it is: This term is not defined by the USDA. However, if a USDA-inspected producer wants to use the term “cage free” on its packaging, the agency must first verify the claim. The USDA will allow the use of the term if the poultry flock was able to freely roam a building, room, or enclosed area with unlimited access to food and fresh water.</p>");
+			$('.label-click-info').html("<h2>Cage-Free</h2> <p>What it is: This term is not defined by the USDA. However, if a USDA-inspected producer wants to use the term \"cage free\" on its packaging, the agency must first verify the claim. The USDA will allow the use of the term if the poultry flock was able to freely roam a building, room, or enclosed area with unlimited access to food and fresh water.</p>");
 			break;
 
 
@@ -85,13 +85,13 @@ $(document).ready(function(){
 			$('.label-click-info').html("<h2>All-Natural</h2> <p>What it means: This claim has not been precisely defined by the USDA, however, it means that the product is free of artificial ingredients or added colors and has only been minimally processed. Minimal processing means that the product was processed in a way that has not fundamentally changed the product. If a producer chooses to use this term, the label must include a statement explaining how the producer has defined the term. E.g., the label must say “no artificial ingredients” or “minimally processed.</p>");
 			break;
 		case 'poultry-no-antibiotics':
-			$('.label-click-info').html("<h2>Antibiotic Free</h2> <p>What it means: This language may be used on a label if the producer can provide “sufficient documentation” to the USDA to show the animal was raised without the use of antibiotics.</p>");
+			$('.label-click-info').html("<h2>Antibiotic Free</h2> <p>What it means: This language may be used on a label if the producer can provide \"sufficient documentation\" to the USDA to show the animal was raised without the use of antibiotics.</p>");
 			break;
 		case 'free-range':
-			$('.label-click-info').html("<h2>Free Range</h2> <p>What it is: The USDA has not provided a precise definition of these terms. If a USDA-inspected producer wants to use the term “free range,” the agency must first verify the claim prior to its inclusion on the label. The USDA will allow the use of the term if the flock was provided shelter in a building, room, or area with unlimited access to food, fresh water, and continuous access to outdoors, which can simply mean the facility has a window.</p> ");
+			$('.label-click-info').html("<h2>Free Range</h2> <p>What it is: The USDA has not provided a precise definition of these terms. If a USDA-inspected producer wants to use the term \"free range,\" the agency must first verify the claim prior to its inclusion on the label. The USDA will allow the use of the term if the flock was provided shelter in a building, room, or area with unlimited access to food, fresh water, and continuous access to outdoors, which can simply mean the facility has a window.</p> ");
 			break;
 		case 'poultry-no-hormones':
-			$('.label-click-info').html("<h2>Hormone Free</h2> <p>What it is: The USDA does not permit the use of hormones in the raising of poultry. Consequently, this claim cannot be used on a poultry label unless it is accompanied by language stating that “federal regulations prohibit the use of hormones” in poultry.</p>");
+			$('.label-click-info').html("<h2>Hormone Free</h2> <p>What it is: The USDA does not permit the use of hormones in the raising of poultry. Consequently, this claim cannot be used on a poultry label unless it is accompanied by language stating that \"federal regulations prohibit the use of hormones\" in poultry.</p>");
 			break;
 		case 'vegetarian-fed':
 			$('.label-click-info').html("<h2>Vegetarian-Fed</h2> <p>What it means: This term is not defined by the USDA. A producer may use this term on a label if the poultry feed does not include animal byproducts. No independent third party verifies this claim and the USDA does not require any verification before its inclusion on a label.</p>");
@@ -106,7 +106,7 @@ $(document).ready(function(){
 			$('.label-click-info').html("<h2>Free Roaming</h2> <p>What it is: This term has only been defined by the USDA for poultry products. When used by a producer for another type of meat, the term usually means something similar to the definition used for poultry, but does not need to conform to that standard.</p>");
 			break;
 		case 'meat-hormone-free':
-			$('.label-click-info').html("<h2>Hormone Free</h2> <p>What this means: Unlike poultry and pork, this claim can be used on beef. It may be approved by the USDA if “sufficient documentation” is provided to the agency showing no hormones were used in the raising of the animal.</p>");
+			$('.label-click-info').html("<h2>Hormone Free</h2> <p>What this means: Unlike poultry and pork, this claim can be used on beef. It may be approved by the USDA if \"sufficient documentation\" is provided to the agency showing no hormones were used in the raising of the animal.</p>");
 			break;
 		case 'meat-pasture-raised':
 			$('.label-click-info').html("<h2>Pasture Raised</h2> <p>What it means: This claim is not defined by the USDA. The term suggests that the animal was raised outside or on pasture, but because there is no legal definition of this term, it can mean what the producer suggests it does.</p>");
@@ -114,7 +114,7 @@ $(document).ready(function(){
 
 		//organic labels
 		case 'organic-ingredients':
-			$('.label-click-info').html("<h2>Made with Organic Ingredients</h2> <p>This label is used with processed or multi-ingredient products. This label means that the product contains at least 70% certified organic ingredients, excluding water and salt, but isn’t 100% organic. The remaining ingredients are not required to be certified organic but they cannot be produced using certain methods. The USDA Organic seal will not be present on these products.</p>");
+			$('.label-click-info').html("<h2>Made with Organic Ingredients</h2> <p>This label is used with processed or multi-ingredient products. This label means that the product contains at least 70% certified organic ingredients, excluding water and salt, but isn't 100% organic. The remaining ingredients are not required to be certified organic but they cannot be produced using certain methods. The USDA Organic seal will not be present on these products.</p>");
 			break;
 		case 'non-gmo':
 			$('.label-click-info').html("<h2>Non-GMO, GE Free, GMO Free, Non-GE</h2> <p>The FDA has not defined this claim. In fact, the FDA has issued guidance stating that they consider these terms to be misleading on most foods.  Food producers use these terms to communicate to consumers that certain products do not contain genetically engineered crops. Any producer can use these terms without pre-approval by the FDA.</p><p>Any producer can use these terms without pre-approval by the FDA.The FDA considers misleading any label that implies that food without genetically engineered ingredients is in any way superior to those products without a similar label. However, a product can still be labeled in this manner if it contains 5% or less of genetically engineered material present in the product as the result of drift or crop contamination.</p>");
