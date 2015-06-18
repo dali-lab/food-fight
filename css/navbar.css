@@ -55,6 +55,8 @@ float: left !important;
     background-color: #468966;
 }
 .nav{
+  padding-left: 180px;
+  padding-right: 180px;
   width: 100%;
   text-align: center;
   vertical-align: center;
